@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="295bdd9b831952101e31f1e6feaad30c" label="Deck" max_length="40" name="x_1347857_deck_sta_deck" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Commander" max_length="40" name="commander" type="string"/>
+        <element label="Commander mana value" max_length="2" name="commander_mana_value" type="integer"/>
+        <element label="Interaction" max_length="4" name="interaction" type="integer"/>
+        <element label="Interaction count" max_length="2" name="interaction_count" type="integer"/>
+        <element label="Land" max_length="4" name="land" type="integer"/>
+        <element label="Lands needed" max_length="40" name="lands_needed" type="integer"/>
+        <element label="Land count" max_length="2" name="land_count" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Playtesting notes" max_length="4000" name="playtesting_notes" type="journal"/>
+        <element label="Ramp" max_length="2" name="ramp" type="integer"/>
+        <element label="Ramp count" max_length="4" name="ramp_count" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Short description" max_length="4000" name="short_description" type="string"/>
+    </element>
+</database>
