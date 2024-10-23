@@ -13,22 +13,23 @@ DeckUtil.prototype = {
     initialize: function() {
     },
 	
-calculateAtLeast: function(count, needed){
-if (needed === 1) {
-    return this.calculateExactPercent(count, 1);
-  } else {
-    return this.calculateExactPercent(count, needed) + this.calculateAtLeast(count, needed - 1);
-  }
+calculateAtLeast: function(count, needed, neededBy){
+	var trials = neededBy + 7;
+	var success = needed;
+	var totalChance = 0;
+while (success < trials || success == trials){
+	totalChance = totalChance + this.calculateExactPercent(count, success, trials);
+	success++;
+}
+return totalChance;
 },
 
-calculateExactPercent: function(count, needed){
+calculateExactPercent: function(count, needed, trials){
 	var successes = needed;
-	var neededByTurn = 1;
-	var turn = 7 + neededByTurn;
 	var probabilityOneTrial = count / 99;
-	var coefficient = this.factorial(turn)/(this.factorial(successes) * this.factorial(turn - successes));
-	var percentChanceOfSuccess = coefficient * Math.pow(probabilityOneTrial, successes) * Math.pow((1 - probabilityOneTrial), (turn - successes));
-	return percentChanceOfSuccess;
+	var coefficient = this.factorial(trials)/(this.factorial(successes) * this.factorial(trials - successes));
+	var percentChanceOfSuccess = coefficient * Math.pow(probabilityOneTrial, successes) * Math.pow((1 - probabilityOneTrial), (trials - successes));
+	return percentChanceOfSuccess * 100;
 },
 
 factorial: function(number){
@@ -45,14 +46,14 @@ factorial: function(number){
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-22 13:58:56</sys_created_on>
         <sys_id>5c322957835952101e31f1e6feaad30c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>DeckUtil</sys_name>
         <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
         <sys_update_name>sys_script_include_5c322957835952101e31f1e6feaad30c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-22 14:24:19</sys_updated_on>
+        <sys_updated_on>2024-10-22 18:29:23</sys_updated_on>
     </sys_script_include>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>5c322957835952101e31f1e6feaad30c</id>

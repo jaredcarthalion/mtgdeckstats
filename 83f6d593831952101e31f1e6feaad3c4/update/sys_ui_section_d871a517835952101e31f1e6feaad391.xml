@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="Percents" section_id="d871a517835952101e31f1e6feaad391" sys_domain="global" table="x_1347857_deck_sta_deck" version="3" view="">
+    <sys_ui_section caption="Percent of Time Drawn" section_id="d871a517835952101e31f1e6feaad391" sys_domain="global" table="x_1347857_deck_sta_deck" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>land</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-22 13:23:19</sys_created_on>
-            <sys_id>2c71a517835952101e31f1e6feaad3eb</sys_id>
+            <sys_created_on>2024-10-22 18:54:46</sys_created_on>
+            <sys_id>3f4da253831192101e31f1e6feaad3f8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Percents" display_value="Percents" name="x_1347857_deck_sta_deck" sys_domain="global" view="Default view">d871a517835952101e31f1e6feaad391</sys_ui_section>
+            <sys_ui_section caption="Percent of Time Drawn" display_value="Percent of Time Drawn" name="x_1347857_deck_sta_deck" sys_domain="global" view="Default view">d871a517835952101e31f1e6feaad391</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-22 13:23:19</sys_updated_on>
+            <sys_updated_on>2024-10-22 18:54:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>interaction</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-22 13:23:19</sys_created_on>
-            <sys_id>a071a517835952101e31f1e6feaad3ec</sys_id>
+            <sys_created_on>2024-10-22 18:54:46</sys_created_on>
+            <sys_id>b34da253831192101e31f1e6feaad3f9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Percents" display_value="Percents" name="x_1347857_deck_sta_deck" sys_domain="global" view="Default view">d871a517835952101e31f1e6feaad391</sys_ui_section>
+            <sys_ui_section caption="Percent of Time Drawn" display_value="Percent of Time Drawn" name="x_1347857_deck_sta_deck" sys_domain="global" view="Default view">d871a517835952101e31f1e6feaad391</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-22 13:23:19</sys_updated_on>
+            <sys_updated_on>2024-10-22 18:54:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-22 13:23:19</sys_created_on>
-            <sys_id>2871a517835952101e31f1e6feaad3ec</sys_id>
+            <sys_created_on>2024-10-22 18:54:46</sys_created_on>
+            <sys_id>3b4da253831192101e31f1e6feaad3f9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Percents" display_value="Percents" name="x_1347857_deck_sta_deck" sys_domain="global" view="Default view">d871a517835952101e31f1e6feaad391</sys_ui_section>
+            <sys_ui_section caption="Percent of Time Drawn" display_value="Percent of Time Drawn" name="x_1347857_deck_sta_deck" sys_domain="global" view="Default view">d871a517835952101e31f1e6feaad391</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-22 13:23:19</sys_updated_on>
+            <sys_updated_on>2024-10-22 18:54:46</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -46,18 +46,18 @@
             <element>ramp</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-22 13:23:19</sys_created_on>
-            <sys_id>ac71a517835952101e31f1e6feaad3ec</sys_id>
+            <sys_created_on>2024-10-22 18:54:46</sys_created_on>
+            <sys_id>bf4da253831192101e31f1e6feaad3f9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Percents" display_value="Percents" name="x_1347857_deck_sta_deck" sys_domain="global" view="Default view">d871a517835952101e31f1e6feaad391</sys_ui_section>
+            <sys_ui_section caption="Percent of Time Drawn" display_value="Percent of Time Drawn" name="x_1347857_deck_sta_deck" sys_domain="global" view="Default view">d871a517835952101e31f1e6feaad391</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-22 13:23:19</sys_updated_on>
+            <sys_updated_on>2024-10-22 18:54:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption>Percents</caption>
+            <caption>Percent of Time Drawn</caption>
             <header>false</header>
             <name>x_1347857_deck_sta_deck</name>
             <roles/>
@@ -67,7 +67,7 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>d871a517835952101e31f1e6feaad391</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_name>x_1347857_deck_sta_deck</sys_name>
             <sys_overrides/>
             <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
@@ -75,7 +75,7 @@
             <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
             <sys_update_name>sys_ui_section_d871a517835952101e31f1e6feaad391</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-22 13:23:18</sys_updated_on>
+            <sys_updated_on>2024-10-22 18:54:46</sys_updated_on>
             <sys_user/>
             <title>false</title>
             <view display_value="Default view" name="NULL">Default view</view>
