@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+	/* widget controller */
+	var c = this;
+c.calculate = function() {
+	c.server.update();
+}
+	
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>probability_calculator</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Probability Calculator</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+if (!input) {
+	data.cards_type = 10
+	data.threshold = 1
+	data.turn = 0
+	data.mulligan = 0
+	data.chance = new DeckUtil().calculateWithMull(parseInt(data.cards_type), parseInt(data.threshold), parseInt(data.turn), parseInt(data.mulligan));
+} else if (input.cards_type < 1 || input.threshold > 7 + input.turn - input.mulligan || 7 - input.mulligan + input.turn <= 0 || input.cards_type > 99) {
+	gs.addErrorMessage("Invalid input");
+} else {
+	data.chance = new DeckUtil().calculateWithMull(parseInt(input.cards_type), parseInt(input.threshold), parseInt(input.turn), parseInt(input.mulligan));
+	//gs.addInfoMessage("Likelyhood is " + data.chance);
+}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 13:04:43</sys_created_on>
+        <sys_id>79c6a2638395d2101e31f1e6feaad3cf</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>Probability Calculator</sys_name>
+        <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
+        <sys_update_name>sp_widget_79c6a2638395d2101e31f1e6feaad3cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 19:26:40</sys_updated_on>
+        <template><![CDATA[<form class="form-vertical">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Probability is {{data.chance}}%</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="cards_type">How many cards of this type are in the deck?</label>  
+  <div class="col-md-1">
+  <input ng-model="c.data.cards_type" id="cards_type" name="cards_type" type="number" placeholder="" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="threshold">How many would you like to draw?</label>  
+  <div class="col-md-1">
+  <input ng-model="c.data.threshold" id="threshold" name="threshold" type="number" placeholder="" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="turn">On what turn would you like to have drawn specified the number?</label>  
+  <div class="col-md-1">
+  <input ng-model="c.data.turn" id="turn" name="turn" type="number" placeholder="" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="mulligan">How many mulligans are acceptable?</label>  
+  <div class="col-md-1">
+  <input ng-model="c.data.mulligan" id="mulligan" name="mulligan" type="number" placeholder="" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="calculate"></label>
+  <div class="col-md-4">
+    <button ng-click="c.calculate();" id="calculate" name="calculate" class="btn btn-primary">Calculate</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+]]></template>
+    </sp_widget>
+</record_update>
