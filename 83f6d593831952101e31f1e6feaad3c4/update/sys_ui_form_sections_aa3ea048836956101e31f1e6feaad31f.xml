@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="aa3ea048836956101e31f1e6feaad31f" sys_domain="global" table="x_1347857_deck_sta_deck" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-24 17:34:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>663ea048836956101e31f1e6feaad3ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1347857_deck_sta_deck" name="x_1347857_deck_sta_deck" sys_domain="global" view="d43e20480d695610856427490bd0751d">aa3ea048836956101e31f1e6feaad31f</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1347857_deck_sta_deck" sys_domain="global" view="d43e20480d695610856427490bd0751d">6a3ea048836956101e31f1e6feaad3ea</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-24 17:34:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-24 17:34:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6e3ea048836956101e31f1e6feaad3f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1347857_deck_sta_deck" name="x_1347857_deck_sta_deck" sys_domain="global" view="d43e20480d695610856427490bd0751d">aa3ea048836956101e31f1e6feaad31f</sys_ui_form>
+            <sys_ui_section caption="Counts" display_value="Counts" name="x_1347857_deck_sta_deck" sys_domain="global" view="d43e20480d695610856427490bd0751d">6e3ea048836956101e31f1e6feaad3f1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-24 17:34:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-24 17:34:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>663ee048836956101e31f1e6feaad310</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1347857_deck_sta_deck" name="x_1347857_deck_sta_deck" sys_domain="global" view="d43e20480d695610856427490bd0751d">aa3ea048836956101e31f1e6feaad31f</sys_ui_form>
+            <sys_ui_section caption="Percent of Time Drawn" display_value="Percent of Time Drawn" name="x_1347857_deck_sta_deck" sys_domain="global" view="d43e20480d695610856427490bd0751d">a63ee048836956101e31f1e6feaad30f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-24 17:34:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-24 19:15:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>70254d4c83e956101e31f1e6feaad397</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1347857_deck_sta_deck" name="x_1347857_deck_sta_deck" sys_domain="global" view="d43e20480d695610856427490bd0751d">aa3ea048836956101e31f1e6feaad31f</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_1347857_deck_sta_deck" sys_domain="global" view="d43e20480d695610856427490bd0751d">38254d4c83e956101e31f1e6feaad392</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-24 19:15:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1347857_deck_sta_deck</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-24 17:34:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aa3ea048836956101e31f1e6feaad31f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1347857_deck_sta_deck</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
+            <sys_update_name>sys_ui_form_sections_aa3ea048836956101e31f1e6feaad31f</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-24 17:34:59</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Deck Stats 0" name="workspace-deck-stats-0">d43e20480d695610856427490bd0751d</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
