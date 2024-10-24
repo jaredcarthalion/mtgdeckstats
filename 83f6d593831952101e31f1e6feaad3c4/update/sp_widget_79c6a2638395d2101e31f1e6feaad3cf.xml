@@ -10,7 +10,19 @@ c.calculate = function() {
 	
 };]]></client_script>
         <controller_as>c</controller_as>
-        <css/>
+        <css>.mtg-space{
+  margin: 50px;
+  padding: 10px;
+  border: solid;
+}
+.mtg-title{
+  padding: 10px;
+  font-weight: 700;
+  font-size: 25px;
+}
+.form-group{
+  padding: 5px;
+}</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
         <description/>
@@ -22,7 +34,7 @@ c.calculate = function() {
         <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
         <name>Probability Calculator</name>
         <option_schema/>
-        <public>false</public>
+        <public>true</public>
         <roles/>
         <script><![CDATA[(function() {
   /* populate the 'data' object */
@@ -45,24 +57,25 @@ if (!input) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-23 13:04:43</sys_created_on>
         <sys_id>79c6a2638395d2101e31f1e6feaad3cf</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>65</sys_mod_count>
         <sys_name>Probability Calculator</sys_name>
         <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
         <sys_update_name>sp_widget_79c6a2638395d2101e31f1e6feaad3cf</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-23 19:26:40</sys_updated_on>
-        <template><![CDATA[<form class="form-vertical">
+        <sys_updated_on>2024-10-24 14:59:20</sys_updated_on>
+        <template><![CDATA[
+<form class="form-horizontal mtg-space">
 <fieldset>
 
 <!-- Form Name -->
-<legend>Probability is {{data.chance}}%</legend>
+<legend class="mtg-title">Probability is {{data.chance}}%</legend>
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="cards_type">How many cards of this type are in the deck?</label>  
-  <div class="col-md-1">
+  <label class="col-md-6 control-label" for="cards_type">How many cards of this type are in the deck?</label>  
+  <div class="col-md-4">
   <input ng-model="c.data.cards_type" id="cards_type" name="cards_type" type="number" placeholder="" class="form-control input-md">
     
   </div>
@@ -70,8 +83,8 @@ if (!input) {
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="threshold">How many would you like to draw?</label>  
-  <div class="col-md-1">
+  <label class="col-md-6 control-label" for="threshold">How many would you like to draw?</label>  
+  <div class="col-md-4">
   <input ng-model="c.data.threshold" id="threshold" name="threshold" type="number" placeholder="" class="form-control input-md">
     
   </div>
@@ -79,8 +92,8 @@ if (!input) {
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="turn">On what turn would you like to have drawn specified the number?</label>  
-  <div class="col-md-1">
+  <label class="col-md-6 control-label" for="turn">On what turn would you like to have drawn specified the number?</label>  
+  <div class="col-md-4">
   <input ng-model="c.data.turn" id="turn" name="turn" type="number" placeholder="" class="form-control input-md">
     
   </div>
@@ -88,13 +101,12 @@ if (!input) {
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="mulligan">How many mulligans are acceptable?</label>  
-  <div class="col-md-1">
+  <label class="col-md-6 control-label" for="mulligan">How many mulligans are acceptable?</label>  
+  <div class="col-md-4">
   <input ng-model="c.data.mulligan" id="mulligan" name="mulligan" type="number" placeholder="" class="form-control input-md">
     
   </div>
 </div>
-
 <!-- Button -->
 <div class="form-group">
   <label class="col-md-4 control-label" for="calculate"></label>
@@ -105,6 +117,7 @@ if (!input) {
 
 </fieldset>
 </form>
+
 ]]></template>
     </sp_widget>
 </record_update>
