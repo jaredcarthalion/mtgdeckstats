@@ -5,7 +5,7 @@
         <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Playtesting notes</column_label>
@@ -27,7 +27,7 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Journal">journal</internal_type>
+        <internal_type display_value="">journal_input</internal_type>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
         <name>x_1347857_deck_sta_deck</name>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
         <sys_update_name>sys_dictionary_x_1347857_deck_sta_deck_playtesting_notes</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-22 12:56:38</sys_updated_on>
+        <sys_updated_on>2024-10-25 13:05:56</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

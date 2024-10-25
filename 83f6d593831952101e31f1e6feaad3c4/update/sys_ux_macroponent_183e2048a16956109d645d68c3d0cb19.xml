@@ -1819,7 +1819,7 @@
                         {
                             "conditional": {
                                 "type": "JSON_LITERAL",
-                                "value": null
+                                "value": true
                             },
                             "extensionPoint": null,
                             "icon": "document-outline",
@@ -1947,7 +1947,7 @@
                                     "id": "d356d14b6e293a3020a244b63d278d8f",
                                     "type": "MACROPONENT"
                                 },
-                                "elementId": "clbbkatggrcaabbiivddfhhbbccjocthqm",
+                                "elementId": "cl1kat6qr018u3f717uit8kll",
                                 "elementLabel": "Template",
                                 "eventMappings": [],
                                 "extensionPoints": [],
@@ -4874,14 +4874,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-24 17:34:51</sys_created_on>
         <sys_id>183e2048a16956109d645d68c3d0cb19</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Record Default</sys_name>
         <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
         <sys_update_name>sys_ux_macroponent_183e2048a16956109d645d68c3d0cb19</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-24 17:34:51</sys_updated_on>
+        <sys_updated_on>2024-10-25 14:14:18</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=183e2048a16956109d645d68c3d0cb19"/>
 </record_update>

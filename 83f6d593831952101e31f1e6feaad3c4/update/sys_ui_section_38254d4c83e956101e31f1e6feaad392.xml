@@ -4,15 +4,29 @@
             <element>playtesting_notes</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-24 19:15:05</sys_created_on>
-            <sys_id>34254d4c83e956101e31f1e6feaad3a1</sys_id>
+            <sys_created_on>2024-10-25 13:18:26</sys_created_on>
+            <sys_id>d61d7c1083a1d6101e31f1e6feaad37b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Notes" display_value="Notes" name="x_1347857_deck_sta_deck" sys_domain="global" view="d43e20480d695610856427490bd0751d">38254d4c83e956101e31f1e6feaad392</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-24 19:15:05</sys_updated_on>
+            <sys_updated_on>2024-10-25 13:18:26</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-25 13:18:26</sys_created_on>
+            <sys_id>de1d7c1083a1d6101e31f1e6feaad37b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Playtesting Notes">34ebfc9c8361d6101e31f1e6feaad356</sys_ui_formatter>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_1347857_deck_sta_deck" sys_domain="global" view="d43e20480d695610856427490bd0751d">38254d4c83e956101e31f1e6feaad392</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-25 13:18:26</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Notes</caption>
