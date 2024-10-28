@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script_include">
+    <sys_ux_client_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <api_name>x_1347857_deck_sta.DeckWkspUtils</api_name>
+        <includes/>
+        <name>DeckWkspUtils</name>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[function include({imports}) {
+return calculateWithMullFilter;
+
+function calculateWithMullFilter(count, needed, neededBy, mulligan){
+if (mulligan < 0 || neededBy < 0 || needed < 1 || count < 1 || needed > 7 + neededBy - mulligan || 7 - mulligan + neededBy <= 0 || count > 99) { 
+return "";
+} else {
+	return calculateWithMull(count, needed, neededBy, mulligan);
+}
+}
+
+ function  calculateWithMull (count, needed, neededBy, mulligan) {
+        var mulCount = mulligan;
+        var mulNum = 0;
+        var notChanceOnMul = 1;
+        var chanceOnMul = 0;
+        while ((7 - mulNum) > needed && mulCount > 0) {
+            notChanceOnMul = notChanceOnMul * (calculateAtLeast(count, needed, 0) * -.01 + 1);
+            mulNum++;
+            mulCount--;
+        }
+        var notTotalChance = notChanceOnMul * (calculateAtLeast(count, needed, neededBy) * -.01 + 1);
+        var totalChance = (1 - notTotalChance) * 100;
+        return Math.round(totalChance);
+    }
+
+
+    function calculateAtLeast (count, needed, neededBy) {
+        var trials = neededBy + 7;
+        var success = needed;
+        var totalChance = 0;
+        while (success < trials || success == trials) {
+            totalChance = totalChance + calculateExactPercent(count, success, trials);
+            success++;
+        }
+        return totalChance;
+    }
+
+   function calculateExactPercent (count, needed, trials) {
+        var successes = needed;
+        var probabilityOneTrial = count / 99;
+        var coefficient = factorial(trials) / (factorial(successes) * factorial(trials - successes));
+        var percentChanceOfSuccess = coefficient * Math.pow(probabilityOneTrial, successes) * Math.pow((1 - probabilityOneTrial), (trials - successes));
+        return percentChanceOfSuccess * 100;
+    }
+
+     function factorial (number) {
+        if (number === 0) {
+            return 1;
+        } else {
+            return number * factorial(number - 1);
+        }
+    }
+
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 13:14:44</sys_created_on>
+        <sys_id>91075c9183a91e101e31f1e6feaad34e</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>DeckWkspUtils</sys_name>
+        <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
+        <sys_update_name>sys_ux_client_script_include_91075c9183a91e101e31f1e6feaad34e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 20:34:25</sys_updated_on>
+    </sys_ux_client_script_include>
+</record_update>

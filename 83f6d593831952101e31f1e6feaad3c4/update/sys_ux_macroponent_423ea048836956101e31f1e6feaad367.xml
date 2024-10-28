@@ -2023,7 +2023,7 @@
                                 "elementLabel": "Button 1",
                                 "eventMappings": [
                                     {
-                                        "eventMappingId": "cmccpbbvsypaaaahhbccahhuriifgddqddk",
+                                        "eventMappingId": "cmcctheeeddiaabbhjccahhuhhaamdhfcp",
                                         "isConfiguration": false,
                                         "offRowStorageId": null,
                                         "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
@@ -2035,34 +2035,6 @@
                                         },
                                         "sourceEventSysId": null,
                                         "targets": [
-                                            {
-                                                "broker": null,
-                                                "clientScript": null,
-                                                "conditional": null,
-                                                "declarativeAction": null,
-                                                "event": {
-                                                    "apiName": "x_1347857_deck_sta.MODAL_SELECTED_RELAY_423ea048836956101e31f1e6feaad367",
-                                                    "payload": {
-                                                        "type": "JSON_LITERAL",
-                                                        "value": {
-                                                            "bare": false,
-                                                            "displayOptions": null,
-                                                            "headerLabel": null,
-                                                            "modalId": "[component-id$='modalContainerViewport']",
-                                                            "preserveState": false,
-                                                            "showModal": true,
-                                                            "viewportElementId": null,
-                                                            "viewportFields": null,
-                                                            "viewportParams": null,
-                                                            "viewportRoute": null
-                                                        }
-                                                    },
-                                                    "sysId": "39ceb5148329d6101e31f1e6feaad38f"
-                                                },
-                                                "operation": null,
-                                                "targetId": "cmccpbbvsyqaaaahhcccahhuyjrddffddoh",
-                                                "type": "EVENT"
-                                            },
                                             {
                                                 "broker": null,
                                                 "clientScript": null,
@@ -2083,7 +2055,7 @@
                                                     "sysId": "f49aa75023071010b1e3c50947bf65de"
                                                 },
                                                 "operation": null,
-                                                "targetId": "cmccpddqkdiiaaaapiccahhunsxqbzrdd",
+                                                "targetId": "cmcctheeeddiaabbhkccahhuqbbkoqweegg",
                                                 "type": "EVENT"
                                             }
                                         ]
@@ -3963,14 +3935,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-24 17:34:57</sys_created_on>
         <sys_id>423ea048836956101e31f1e6feaad367</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>Deck Record Page</sys_name>
         <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
         <sys_update_name>sys_ux_macroponent_423ea048836956101e31f1e6feaad367</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-25 19:06:19</sys_updated_on>
+        <sys_updated_on>2024-10-28 20:38:35</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=423ea048836956101e31f1e6feaad367"/>
 </record_update>

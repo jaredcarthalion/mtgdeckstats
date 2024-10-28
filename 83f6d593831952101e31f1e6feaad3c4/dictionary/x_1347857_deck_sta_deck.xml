@@ -10,6 +10,13 @@
         <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Playtesting notes" max_length="4000" name="playtesting_notes" type="journal_input"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Play style" mandatory="true" max_length="40" name="play_style" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Aggro" sequence="0" value="aggro"/>
+                <element inactive_on_update="false" label="Midrange" sequence="1" value="midrange"/>
+                <element inactive_on_update="false" label="Control" sequence="2" value="control"/>
+            </choice>
+        </element>
         <element label="Ramp" max_length="4" name="ramp" read_only="true" type="integer"/>
         <element label="Ramp count" mandatory="true" max_length="2" name="ramp_count" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="4000" name="short_description" type="html"/>
