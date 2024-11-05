@@ -1500,6 +1500,7 @@
                                                             {
                                                                 "element_id": "single_score_1",
                                                                 "styles": {
+                                                                    "flex": "none",
                                                                     "margin": "var(--now-scalable-space--xs)",
                                                                     "margin-bottom": "var(--now-scalable-space--xs)",
                                                                     "margin-left": "var(--now-scalable-space--xs)",
@@ -1611,7 +1612,7 @@
                                                             },
                                                             "componentId": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": "jnktl3p8"
+                                                                "value": "a7es20kc"
                                                             },
                                                             "configPropModifiers": {
                                                                 "type": "JSON_LITERAL",
@@ -1655,7 +1656,7 @@
                                                                             },
                                                                             "id": {
                                                                                 "type": "JSON_LITERAL",
-                                                                                "value": "dGFibGV4XzEzNDc4NTdfZGVja19zdGFfZGVjazE3MzAyMTE0MjIxNTE="
+                                                                                "value": "dGFibGV4XzEzNDc4NTdfZGVja19zdGFfZGVjazE3MzA4NDA5MzEyNTQ="
                                                                             },
                                                                             "isDatabaseView": {
                                                                                 "type": "JSON_LITERAL",
@@ -1746,7 +1747,7 @@
                                                             },
                                                             "followFilters": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": false
+                                                                "value": true
                                                             },
                                                             "forecastConfig": {
                                                                 "type": "JSON_LITERAL",
@@ -1759,7 +1760,7 @@
                                                                         "disableRanges": false,
                                                                         "groupBy": [
                                                                             {
-                                                                                "dataSource": "dGFibGV4XzEzNDc4NTdfZGVja19zdGFfZGVjazE3MzAyMTE0MjIxNTE=",
+                                                                                "dataSource": "dGFibGV4XzEzNDc4NTdfZGVja19zdGFfZGVjazE3MzA4NDA5MzEyNTQ=",
                                                                                 "groupByField": "play_style",
                                                                                 "isChoice": true,
                                                                                 "isPaBucket": false,
@@ -1781,12 +1782,12 @@
                                                                 "value": {
                                                                     "code": null,
                                                                     "comment": "",
-                                                                    "message": "My Build Style"
+                                                                    "message": "My Play Style"
                                                                 }
                                                             },
                                                             "headingLevel": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": 1
+                                                                "value": 2
                                                             },
                                                             "headingPosition": {
                                                                 "type": "JSON_LITERAL",
@@ -1834,11 +1835,11 @@
                                                                             },
                                                                             "dataSource": {
                                                                                 "type": "JSON_LITERAL",
-                                                                                "value": "dGFibGV4XzEzNDc4NTdfZGVja19zdGFfZGVjazE3MzAyMTE0MjIxNTE="
+                                                                                "value": "dGFibGV4XzEzNDc4NTdfZGVja19zdGFfZGVjazE3MzA4NDA5MzEyNTQ="
                                                                             },
                                                                             "id": {
                                                                                 "type": "JSON_LITERAL",
-                                                                                "value": "ZEdGaWJHVjRYekV6TkRjNE5UZGZaR1ZqYTE5emRHRmZaR1ZqYXpFM016QXlNVEUwTWpJeE5URT0xNzMwMjExNDI1MzE3"
+                                                                                "value": "ZEdGaWJHVjRYekV6TkRjNE5UZGZaR1ZqYTE5emRHRmZaR1ZqYXpFM016QTROREE1TXpFeU5UUT0xNzMwODQwOTMzNDA1"
                                                                             },
                                                                             "numberFormat": {
                                                                                 "type": "JSON_LITERAL",
@@ -1890,7 +1891,7 @@
                                                             },
                                                             "scoreSize": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": "xxl"
+                                                                "value": "auto"
                                                             },
                                                             "scoreType": {
                                                                 "type": "JSON_LITERAL",
@@ -1954,7 +1955,7 @@
                                                             },
                                                             "showFilterIcon": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": false
+                                                                "value": true
                                                             },
                                                             "showFirstGroupAggregate": {
                                                                 "type": "JSON_LITERAL",
@@ -2102,7 +2103,7 @@
                                                             }
                                                         },
                                                         "slot": null,
-                                                        "styles": {}
+                                                        "styles": null
                                                     }
                                                 ],
                                                 "layout": {
@@ -2111,13 +2112,7 @@
                                                         "items": [
                                                             {
                                                                 "element_id": "semi_donut_1",
-                                                                "styles": {
-                                                                    "margin": "var(--now-scalable-space--xs)",
-                                                                    "margin-bottom": "var(--now-scalable-space--xs)",
-                                                                    "margin-left": "var(--now-scalable-space--xs)",
-                                                                    "margin-right": "var(--now-scalable-space--xs)",
-                                                                    "margin-top": "var(--now-scalable-space--xs)"
-                                                                }
+                                                                "styles": {}
                                                             }
                                                         ],
                                                         "root": null,
@@ -2730,7 +2725,12 @@
                                         "element_id": "carousel_1",
                                         "styles": {
                                             "background": "rgb(var(--now-color--neutral-1))",
-                                            "flex": "1 0 auto"
+                                            "flex": "1 0 auto",
+                                            "padding": "var(--now-scalable-space--sm)",
+                                            "padding-bottom": "var(--now-scalable-space--sm)",
+                                            "padding-left": "var(--now-scalable-space--sm)",
+                                            "padding-right": "var(--now-scalable-space--sm)",
+                                            "padding-top": "var(--now-scalable-space--sm)"
                                         }
                                     },
                                     {
@@ -3092,10 +3092,10 @@
   "message" : "Deck",
   "comment" : ""
 }, {
-  "message" : "My Build Style",
+  "message" : "My Decks",
   "comment" : ""
 }, {
-  "message" : "My Decks",
+  "message" : "My Play Style",
   "comment" : ""
 }, {
   "message" : "New Decks",
@@ -3123,14 +3123,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-24 17:34:52</sys_created_on>
         <sys_id>dc3e204825695610cf4309a96a7fb618</sys_id>
-        <sys_mod_count>77</sys_mod_count>
+        <sys_mod_count>101</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
         <sys_update_name>sys_ux_macroponent_dc3e204825695610cf4309a96a7fb618</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-29 14:55:54</sys_updated_on>
+        <sys_updated_on>2024-11-05 21:10:24</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=dc3e204825695610cf4309a96a7fb618"/>
 </record_update>
