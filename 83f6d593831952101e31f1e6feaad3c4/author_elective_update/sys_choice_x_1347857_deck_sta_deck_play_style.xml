@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="play_style" table="x_1347857_deck_sta_deck" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>play_style</element>
+            <name>x_1347857_deck_sta_deck</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 20:54:45</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>play_style</sys_name>
+            <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
+            <sys_update_name>sys_choice_x_1347857_deck_sta_deck_play_style</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 20:54:45</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>play_style</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Aggro</label>
+            <language>en</language>
+            <name>x_1347857_deck_sta_deck</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 20:54:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 20:54:45</sys_updated_on>
+            <value>aggro</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>play_style</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Midrange</label>
+            <language>en</language>
+            <name>x_1347857_deck_sta_deck</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 20:54:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 20:54:46</sys_updated_on>
+            <value>midrange</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>play_style</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Control</label>
+            <language>en</language>
+            <name>x_1347857_deck_sta_deck</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 20:54:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 20:54:46</sys_updated_on>
+            <value>control</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

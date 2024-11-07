@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="DELETE">
+        <description/>
+        <event_name>SETCLIENTSTATEPARAMS</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>setClientStateParams</label>
+        <props>[
+    {
+        "fieldType": "number",
+        "id": "cm2tgkgba012m2a7usxm675is",
+        "interfaceApiName": "",
+        "label": "",
+        "mandatory": false,
+        "name": "cards_type",
+        "readOnly": false,
+        "type": "number",
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "number",
+        "id": "cm2tgl5ae012n2a7u43lx9jeb",
+        "interfaceApiName": "",
+        "label": "",
+        "mandatory": false,
+        "name": "threshold",
+        "readOnly": false,
+        "type": "number",
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "number",
+        "id": "cm2tglcah012o2a7uj68v6jou",
+        "interfaceApiName": "",
+        "label": "",
+        "mandatory": false,
+        "name": "turn",
+        "readOnly": false,
+        "type": "number",
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "number",
+        "id": "cm2tglfe0012p2a7uy3b87sif",
+        "interfaceApiName": "",
+        "label": "",
+        "mandatory": false,
+        "name": "mulligan",
+        "readOnly": false,
+        "type": "number",
+        "typeMetadata": null
+    }
+]</props>
+        <required_translations>[ ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 20:23:07</sys_created_on>
+        <sys_id>406b695d83615e101e31f1e6feaad376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>setClientStateParams</sys_name>
+        <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
+        <sys_update_name>sys_ux_event_406b695d83615e101e31f1e6feaad376</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 20:23:07</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="DELETE" query="documentkey=406b695d83615e101e31f1e6feaad376"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</application>
+        <file_path/>
+        <instance_id>6745fffddbfd3d14199b1729139619f5</instance_id>
+        <instance_name>dev183095</instance_name>
+        <name>sys_ux_event_406b695d83615e101e31f1e6feaad376</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event"><sys_ux_event action="INSERT_OR_UPDATE"><description/><event_name>SETCLIENTSTATEPARAMS</event_name><explicit_api_name/><interfaces/><label>setClientStateParams</label><props>[
+    {
+        "fieldType": "number",
+        "id": "cm2tgkgba012m2a7usxm675is",
+        "interfaceApiName": "",
+        "label": "",
+        "mandatory": false,
+        "name": "cards_type",
+        "readOnly": false,
+        "type": "number",
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "number",
+        "id": "cm2tgl5ae012n2a7u43lx9jeb",
+        "interfaceApiName": "",
+        "label": "",
+        "mandatory": false,
+        "name": "threshold",
+        "readOnly": false,
+        "type": "number",
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "number",
+        "id": "cm2tglcah012o2a7uj68v6jou",
+        "interfaceApiName": "",
+        "label": "",
+        "mandatory": false,
+        "name": "turn",
+        "readOnly": false,
+        "type": "number",
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "number",
+        "id": "cm2tglfe0012p2a7uy3b87sif",
+        "interfaceApiName": "",
+        "label": "",
+        "mandatory": false,
+        "name": "mulligan",
+        "readOnly": false,
+        "type": "number",
+        "typeMetadata": null
+    }
+]</props><required_translations>[ ]</required_translations><schema_version>1.0.0</schema_version><sys_class_name>sys_ux_event</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-28 20:23:07</sys_created_on><sys_id>406b695d83615e101e31f1e6feaad376</sys_id><sys_mod_count>0</sys_mod_count><sys_name>setClientStateParams</sys_name><sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package><sys_policy/><sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope><sys_update_name>sys_ux_event_406b695d83615e101e31f1e6feaad376</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-28 20:23:07</sys_updated_on></sys_ux_event><sys_translated_text action="delete_multiple" query="documentkey=406b695d83615e101e31f1e6feaad376"/></record_update>]]></payload>
+        <payload_hash>2042103313</payload_hash>
+        <record_name>setClientStateParams</record_name>
+        <reverted_from/>
+        <source>cec6bddb839952101e31f1e6feaad3e0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 20:23:07</sys_created_on>
+        <sys_id>941bf91583e15e101e31f1e6feaad36e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192d4cbecb20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 20:23:07</sys_updated_on>
+        <type>UX Event</type>
+        <update_guid>181bf91599e15e10372bf221ad03a66d</update_guid>
+        <update_guid_history>181bf91599e15e10372bf221ad03a66d:2042103313</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 20:30:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_event">sys_ux_event</sys_db_object>
+        <sys_id>9ebc88615f9c4eeeb8a9834b772809c4</sys_id>
+        <sys_metadata>406b695d83615e101e31f1e6feaad376</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>setClientStateParams</sys_name>
+        <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
+        <sys_scope_delete display_value="">08ceccbc51ce44dc976bb9917edde310</sys_scope_delete>
+        <sys_update_name>sys_ux_event_406b695d83615e101e31f1e6feaad376</sys_update_name>
+        <sys_update_version display_value="sys_ux_event_406b695d83615e101e31f1e6feaad376">941bf91583e15e101e31f1e6feaad36e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 20:30:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

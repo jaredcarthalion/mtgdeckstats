@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="DELETE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_1347857_deck_sta_.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+</j:jelly>]]></html>
+        <name/>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-24 15:46:12</sys_created_on>
+        <sys_id>90255cc083e556101e31f1e6feaad3e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
+        <sys_update_name>sys_ui_page_90255cc083e556101e31f1e6feaad3e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-24 15:46:12</sys_updated_on>
+    </sys_ui_page>
+    <sys_es_latest_script action="DELETE">
+        <id>90255cc083e556101e31f1e6feaad3e2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-24 15:46:12</sys_created_on>
+        <sys_id>8d559c8083e556101e31f1e6feaad388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-24 15:46:12</sys_updated_on>
+        <table>sys_ui_page</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</application>
+        <file_path/>
+        <instance_id>6745fffddbfd3d14199b1729139619f5</instance_id>
+        <instance_name>dev183095</instance_name>
+        <name>sys_ui_page_90255cc083e556101e31f1e6feaad3e2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description/&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint&gt;x_1347857_deck_sta_.do&lt;/endpoint&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name/&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-24 15:46:12&lt;/sys_created_on&gt;&lt;sys_id&gt;90255cc083e556101e31f1e6feaad3e2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Deck Stats" source="x_1347857_deck_sta"&gt;83f6d593831952101e31f1e6feaad3c4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Deck Stats"&gt;83f6d593831952101e31f1e6feaad3c4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_90255cc083e556101e31f1e6feaad3e2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-24 15:46:12&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;90255cc083e556101e31f1e6feaad3e2&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-24 15:46:12&lt;/sys_created_on&gt;&lt;sys_id&gt;8d559c8083e556101e31f1e6feaad388&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-24 15:46:12&lt;/sys_updated_on&gt;&lt;table&gt;sys_ui_page&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-520797216</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>cec6bddb839952101e31f1e6feaad3e0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-24 15:46:12</sys_created_on>
+        <sys_id>5d55dc0083e556101e31f1e6feaad3bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192bf34f9790000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-24 15:46:12</sys_updated_on>
+        <type>UI Page</type>
+        <update_guid>1155dc0068e5561038a047b8c119babd</update_guid>
+        <update_guid_history>1155dc0068e5561038a047b8c119babd:-520797216</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-24 15:46:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_page">sys_ui_page</sys_db_object>
+        <sys_id>669f40d9a0d8460095f90d02da810000</sys_id>
+        <sys_metadata>90255cc083e556101e31f1e6feaad3e2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
+        <sys_scope_delete display_value="">08ceccbc51ce44dc976bb9917edde310</sys_scope_delete>
+        <sys_update_name>sys_ui_page_90255cc083e556101e31f1e6feaad3e2</sys_update_name>
+        <sys_update_version display_value="sys_ui_page_90255cc083e556101e31f1e6feaad3e2">5d55dc0083e556101e31f1e6feaad3bd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-24 15:46:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

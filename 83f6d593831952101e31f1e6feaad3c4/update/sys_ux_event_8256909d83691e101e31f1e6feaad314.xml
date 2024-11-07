@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>VALUEEVENT</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>valueEvent</label>
+        <props>[
+    {
+        "fieldType": "number",
+        "id": "cm2t413hh01792a7ut3dzfnfj",
+        "interfaceApiName": "",
+        "label": "Cards type",
+        "mandatory": false,
+        "name": "cards_type",
+        "readOnly": false,
+        "type": "number",
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "number",
+        "id": "cm2t413hh017a2a7uidfb0s8o",
+        "interfaceApiName": "",
+        "label": "Threshold",
+        "mandatory": false,
+        "name": "threshold",
+        "readOnly": false,
+        "type": "number",
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "number",
+        "id": "cm2t413hh017b2a7u1z2c7zyl",
+        "interfaceApiName": "",
+        "label": "Turn",
+        "mandatory": false,
+        "name": "turn",
+        "readOnly": false,
+        "type": "number",
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "number",
+        "id": "cm2t413hh017c2a7ua628z61m",
+        "interfaceApiName": "",
+        "label": "Mulligan",
+        "mandatory": false,
+        "name": "mulligan",
+        "readOnly": false,
+        "type": "number",
+        "typeMetadata": null
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "Cards type",
+  "comment" : ""
+}, {
+  "message" : "Mulligan",
+  "comment" : ""
+}, {
+  "message" : "Threshold",
+  "comment" : ""
+}, {
+  "message" : "Turn",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 14:05:58</sys_created_on>
+        <sys_id>8256909d83691e101e31f1e6feaad314</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>valueEvent</sys_name>
+        <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
+        <sys_update_name>sys_ux_event_8256909d83691e101e31f1e6feaad314</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 14:26:01</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=8256909d83691e101e31f1e6feaad314"/>
+</record_update>

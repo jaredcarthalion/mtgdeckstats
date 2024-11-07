@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="DELETE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_1347857_deck_sta_Misc Calculator.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+    <iframe src="/mtg?id=mtg_stats" id="msc_calc" title="Misc Calculator" width="300" height="200"></iframe>
+</j:jelly>]]></html>
+        <name>Misc Calculator</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-24 15:45:18</sys_created_on>
+        <sys_id>9584104083e556101e31f1e6feaad36a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Misc Calculator</sys_name>
+        <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
+        <sys_update_name>sys_ui_page_9584104083e556101e31f1e6feaad36a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-24 15:45:18</sys_updated_on>
+    </sys_ui_page>
+    <sys_es_latest_script action="DELETE">
+        <id>9584104083e556101e31f1e6feaad36a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-24 15:45:18</sys_created_on>
+        <sys_id>fb1598c083e556101e31f1e6feaad361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-24 15:45:18</sys_updated_on>
+        <table>sys_ui_page</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</application>
+        <file_path/>
+        <instance_id>6745fffddbfd3d14199b1729139619f5</instance_id>
+        <instance_name>dev183095</instance_name>
+        <name>sys_ui_page_9584104083e556101e31f1e6feaad36a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description/&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint&gt;x_1347857_deck_sta_Misc Calculator.do&lt;/endpoint&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+    &lt;iframe src="/mtg?id=mtg_stats" id="msc_calc" title="Misc Calculator" width="300" height="200"&gt;&lt;/iframe&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;Misc Calculator&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-24 15:45:18&lt;/sys_created_on&gt;&lt;sys_id&gt;9584104083e556101e31f1e6feaad36a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Misc Calculator&lt;/sys_name&gt;&lt;sys_package display_value="Deck Stats" source="x_1347857_deck_sta"&gt;83f6d593831952101e31f1e6feaad3c4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Deck Stats"&gt;83f6d593831952101e31f1e6feaad3c4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_9584104083e556101e31f1e6feaad36a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-24 15:45:18&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;9584104083e556101e31f1e6feaad36a&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-24 15:45:18&lt;/sys_created_on&gt;&lt;sys_id&gt;fb1598c083e556101e31f1e6feaad361&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-24 15:45:18&lt;/sys_updated_on&gt;&lt;table&gt;sys_ui_page&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2126944888</payload_hash>
+        <record_name>Misc Calculator</record_name>
+        <reverted_from/>
+        <source>cec6bddb839952101e31f1e6feaad3e0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-24 15:45:19</sys_created_on>
+        <sys_id>c8255cc083e556101e31f1e6feaad379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192bf3427cd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-24 15:45:19</sys_updated_on>
+        <type>UI Page</type>
+        <update_guid>8c255cc080e55610fcbdf72537338178</update_guid>
+        <update_guid_history>8c255cc080e55610fcbdf72537338178:-2126944888</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-24 15:46:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_page">sys_ui_page</sys_db_object>
+        <sys_id>1c61eaa6df98450fb95b6ab535c8cd11</sys_id>
+        <sys_metadata>9584104083e556101e31f1e6feaad36a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Misc Calculator</sys_name>
+        <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
+        <sys_scope_delete display_value="">08ceccbc51ce44dc976bb9917edde310</sys_scope_delete>
+        <sys_update_name>sys_ui_page_9584104083e556101e31f1e6feaad36a</sys_update_name>
+        <sys_update_version display_value="sys_ui_page_9584104083e556101e31f1e6feaad36a">c8255cc083e556101e31f1e6feaad379</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-24 15:46:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

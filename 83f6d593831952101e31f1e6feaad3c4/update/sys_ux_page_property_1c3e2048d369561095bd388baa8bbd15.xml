@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Header Configuration</description>
+        <name>chrome_header</name>
+        <page display_value="Deck Stats">583e20484d6956106849833571326f27</page>
+        <required_translations>[ {
+  "message" : "Configure workspace",
+  "comment" : ""
+}, {
+  "message" : "Display Preferences",
+  "comment" : ""
+}, {
+  "message" : "Notifications",
+  "comment" : ""
+}, {
+  "message" : "Settings",
+  "comment" : ""
+}, {
+  "message" : "Show Badge Count",
+  "comment" : ""
+}, {
+  "message" : "Show Banners",
+  "comment" : ""
+}, {
+  "message" : "Show ribbon",
+  "comment" : ""
+}, {
+  "message" : "Show sidebar",
+  "comment" : ""
+}, {
+  "message" : "UserMenu",
+  "comment" : ""
+}, {
+  "message" : "Wrap list text",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-24 17:34:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>1c3e2048d369561095bd388baa8bbd15</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
+        <sys_update_name>sys_ux_page_property_1c3e2048d369561095bd388baa8bbd15</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-25 14:10:34</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1347857_deck_sta.583e20484d6956106849833571326f27.root.global.chrome_header</unique_name>
+        <value>{
+    "privatePage": {
+        "notificationsEnabled": true,
+        "searchEnabled": true,
+        "userPrefsEnabled": true,
+        "contextualConfigurationItems": {
+            "_roles": [
+                "workspace_admin"
+            ],
+            "enabled": true,
+            "position": 150
+        },
+        "globalTools": {
+            "collapsingMenuId": 0,
+            "primaryItems": [
+                {
+                    "label": "UserMenu",
+                    "icon": "user",
+                    "type": "menu",
+                    "primaryDisplay": "icon",
+                    "value": {
+                        "children": [
+                            {
+                                "_roles": [
+                                    "workspace_admin"
+                                ],
+                                "label": {
+                                    "message": "Configure workspace",
+                                    "translatable": true
+                                },
+                                "type": "navigation",
+                                "position": 100,
+                                "primaryDisplay": "none",
+                                "value": {
+                                    "type": "external",
+                                    "opensWindow": "true",
+                                    "value": {
+                                        "href": "/nav_to.do?uri=/sys_ux_app_config.do?sys_id=103e2048c569561060de8c2d04d13f28"
+                                    }
+                                }
+                            },
+                            {
+                                "label": {
+                                    "message": "Settings",
+                                    "translatable": true
+                                },
+                                "type": "menu",
+                                "position": 50,
+                                "value": {
+                                    "children": [
+                                        {
+                                            "label": {
+                                                "message": "Display Preferences",
+                                                "translatable": true
+                                            },
+                                            "type": "divider"
+                                        },
+                                        {
+                                            "label": {
+                                                "message": "Show ribbon",
+                                                "translatable": true
+                                            },
+                                            "type": "toggle",
+                                            "value": {
+                                                "_meta": {
+                                                    "_type": "userPreferences",
+                                                    "_path": "userPrefName",
+                                                    "_value": {
+                                                        "userPrefName": "workspace.showRibbon"
+                                                    },
+                                                    "_default": {
+                                                        "userPrefName": "true"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "label": {
+                                                "message": "Show sidebar",
+                                                "translatable": true
+                                            },
+                                            "type": "toggle",
+                                            "value": {
+                                                "_meta": {
+                                                    "_type": "userPreferences",
+                                                    "_path": "userPrefName",
+                                                    "_value": {
+                                                        "userPrefName": "workspace.showAgentAssist"
+                                                    },
+                                                    "_default": {
+                                                        "userPrefName": "true"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "label": {
+                                                "message": "Wrap list text",
+                                                "translatable": true
+                                            },
+                                            "type": "toggle",
+                                            "value": {
+                                                "_meta": {
+                                                    "_type": "userPreferences",
+                                                    "_path": "userPrefName",
+                                                    "_value": {
+                                                        "userPrefName": "workspace.wrapListText"
+                                                    },
+                                                    "_default": {
+                                                        "userPrefName": "true"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "label": {
+                                                "message": "Notifications",
+                                                "translatable": true
+                                            },
+                                            "type": "divider"
+                                        },
+                                        {
+                                            "label": {
+                                                "message": "Show Banners",
+                                                "translatable": true
+                                            },
+                                            "type": "toggle",
+                                            "value": {
+                                                "_meta": {
+                                                    "_type": "userPreferences",
+                                                    "_path": "userPrefName",
+                                                    "_value": {
+                                                        "userPrefName": "workspace.notifications.showPopups"
+                                                    },
+                                                    "_default": {
+                                                        "userPrefName": "true"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "label": {
+                                                "message": "Show Badge Count",
+                                                "translatable": true
+                                            },
+                                            "type": "toggle",
+                                            "value": {
+                                                "_meta": {
+                                                    "_type": "userPreferences",
+                                                    "_path": "userPrefName",
+                                                    "_value": {
+                                                        "userPrefName": "workspace.notifications.showBadgeCount"
+                                                    },
+                                                    "_default": {
+                                                        "userPrefName": "true"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "secondaryItems": []
+        }
+    },
+    "publicPage": {
+        "actionButtons": [],
+        "searchEnabled": false
+    }
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=1c3e2048d369561095bd388baa8bbd15"/>
+</record_update>

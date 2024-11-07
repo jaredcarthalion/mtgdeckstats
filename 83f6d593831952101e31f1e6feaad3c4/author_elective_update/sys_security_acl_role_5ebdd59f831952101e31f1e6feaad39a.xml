@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 13:07:04</sys_created_on>
+        <sys_id>5ebdd59f831952101e31f1e6feaad39a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1347857_deck_sta_deck.snc_internal</sys_name>
+        <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
+        <sys_security_acl display_value="">52bdd59f831952101e31f1e6feaad39a</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_5ebdd59f831952101e31f1e6feaad39a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 13:07:04</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</application>
+        <file_path/>
+        <instance_id>6745fffddbfd3d14199b1729139619f5</instance_id>
+        <instance_name>dev183095</instance_name>
+        <name>sys_security_acl_role_5ebdd59f831952101e31f1e6feaad39a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-22 13:07:04</sys_created_on><sys_id>5ebdd59f831952101e31f1e6feaad39a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1347857_deck_sta_deck.snc_internal</sys_name><sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package><sys_policy/><sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope><sys_security_acl display_value="">52bdd59f831952101e31f1e6feaad39a</sys_security_acl><sys_update_name>sys_security_acl_role_5ebdd59f831952101e31f1e6feaad39a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-22 13:07:04</sys_updated_on><sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1350677309</payload_hash>
+        <record_name>x_1347857_deck_sta_deck.snc_internal</record_name>
+        <reverted_from/>
+        <source>e494e431830012101e31f1e6feaad33e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-08-16 13:47:59</sys_created_on>
+        <sys_id>6d1870188361d6101e31f1e6feaad3a2</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1915b71ee980000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Access Roles</type>
+        <update_guid>2d187018de61d61029cb446a733514a2</update_guid>
+        <update_guid_history>2d187018de61d61029cb446a733514a2:1350677309</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1347857_deck_sta_deck.snc_internal">a51870188361d6101e31f1e6feaad3a3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-25 12:56:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>1bf84e9b6a794efa889547ab55246419</sys_id>
+        <sys_metadata>5ebdd59f831952101e31f1e6feaad39a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1347857_deck_sta_deck.snc_internal</sys_name>
+        <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
+        <sys_scope_delete display_value="">08ceccbc51ce44dc976bb9917edde310</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_5ebdd59f831952101e31f1e6feaad39a</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_5ebdd59f831952101e31f1e6feaad39a">6d1870188361d6101e31f1e6feaad3a2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-25 12:56:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
