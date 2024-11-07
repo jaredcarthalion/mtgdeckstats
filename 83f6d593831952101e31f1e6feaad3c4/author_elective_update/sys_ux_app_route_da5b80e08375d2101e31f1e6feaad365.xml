@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config/>
+        <description/>
+        <extension_point display_value="Deck Pages">1cbb059483e1d6101e31f1e6feaad341</extension_point>
+        <fields/>
+        <icon/>
+        <name>Look at this Graph</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="UXR Base Experience Shell">76a83a645b122010b913030a1d81c780</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>look-at-this-graph</route_type>
+        <screen_type display_value="Look at this Graph">965b80e08375d2101e31f1e6feaad362</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-07 14:35:16</sys_created_on>
+        <sys_id>da5b80e08375d2101e31f1e6feaad365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Look at this Graph</sys_name>
+        <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
+        <sys_update_name>sys_ux_app_route_da5b80e08375d2101e31f1e6feaad365</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-07 14:35:16</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=da5b80e08375d2101e31f1e6feaad365"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</application>
+        <file_path/>
+        <instance_id>6745fffddbfd3d14199b1729139619f5</instance_id>
+        <instance_name>dev183095</instance_name>
+        <name>sys_ux_app_route_da5b80e08375d2101e31f1e6feaad365</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config/><description/><extension_point display_value="Deck Pages">1cbb059483e1d6101e31f1e6feaad341</extension_point><fields/><icon/><name>Look at this Graph</name><optional_parameters/><order>0</order><parent_macroponent display_value="UXR Base Experience Shell">76a83a645b122010b913030a1d81c780</parent_macroponent><parent_macroponent_composition_element_id/><route_type>look-at-this-graph</route_type><screen_type display_value="Look at this Graph">965b80e08375d2101e31f1e6feaad362</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-07 14:35:16</sys_created_on><sys_id>da5b80e08375d2101e31f1e6feaad365</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Look at this Graph</sys_name><sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package><sys_policy/><sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope><sys_update_name>sys_ux_app_route_da5b80e08375d2101e31f1e6feaad365</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-07 14:35:16</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=da5b80e08375d2101e31f1e6feaad365"/></record_update>]]></payload>
+        <payload_hash>-1442817484</payload_hash>
+        <record_name>Look at this Graph</record_name>
+        <reverted_from/>
+        <source>cec6bddb839952101e31f1e6feaad3e0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-07 14:35:16</sys_created_on>
+        <sys_id>165b80e08375d2101e31f1e6feaad368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193070d0f480000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-07 14:35:16</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>d65b80e02d75d21033bd2c4c7b896467</update_guid>
+        <update_guid_history>d65b80e02d75d21033bd2c4c7b896467:-1442817484</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-07 14:36:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>46feee95d279443f8a6dbeb1198a90c1</sys_id>
+        <sys_metadata>da5b80e08375d2101e31f1e6feaad365</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Look at this Graph</sys_name>
+        <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
+        <sys_scope_delete display_value="">08ceccbc51ce44dc976bb9917edde310</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_da5b80e08375d2101e31f1e6feaad365</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_da5b80e08375d2101e31f1e6feaad365">165b80e08375d2101e31f1e6feaad368</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-07 14:36:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="295bdd9b831952101e31f1e6feaad30c" label="Deck" max_length="40" name="x_1347857_deck_sta_deck" text_index="true" type="collection">
+        <element choice="1" label="Color identity" max_length="4000" name="color_s" type="glide_list">
+            <choice>
+                <element inactive_on_update="false" label="Black" value="black"/>
+                <element inactive_on_update="false" label="Blue" value="blue"/>
+                <element inactive_on_update="false" label="Colorless" value="colorless"/>
+                <element inactive_on_update="false" label="Green" value="Green"/>
+                <element inactive_on_update="false" label="Red" value="Red"/>
+                <element inactive_on_update="false" label="White" value="white"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Commander" mandatory="true" max_length="40" name="commander" type="string"/>
         <element label="Commander mana value" mandatory="true" max_length="2" name="commander_mana_value" type="integer"/>
         <element label="Interaction" max_length="4" name="interaction" read_only="true" type="integer"/>
