@@ -78,53 +78,7 @@
                                 },
                                 "elementId": "cards_type",
                                 "elementLabel": "Cards Type",
-                                "eventMappings": [
-                                    {
-                                        "eventMappingId": "cmccthaaoltaabbamccahhuyjbbuiiaaai",
-                                        "isConfiguration": false,
-                                        "offRowStorageId": null,
-                                        "sourceEventApiName": "sn_input.NOW_INPUT#VALUE_SET",
-                                        "sourceEventCorrelationId": null,
-                                        "sourceEventDefinition": {
-                                            "apiName": "sn_input.NOW_INPUT#VALUE_SET",
-                                            "id": null,
-                                            "type": "UXEVENT"
-                                        },
-                                        "sourceEventSysId": null,
-                                        "targets": [
-                                            {
-                                                "broker": null,
-                                                "clientScript": null,
-                                                "conditional": null,
-                                                "declarativeAction": null,
-                                                "event": {
-                                                    "apiName": "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
-                                                    "payload": {
-                                                        "container": {
-                                                            "propName": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": "cards_type"
-                                                            },
-                                                            "value": {
-                                                                "binding": {
-                                                                    "address": [
-                                                                        "value"
-                                                                    ]
-                                                                },
-                                                                "type": "EVENT_PAYLOAD_BINDING"
-                                                            }
-                                                        },
-                                                        "type": "MAP_CONTAINER"
-                                                    },
-                                                    "sysId": "32408b42ff7a10109046e490703bf176"
-                                                },
-                                                "operation": null,
-                                                "targetId": "cmccthaaoltaabbanccahhubbkjjndzdbb",
-                                                "type": "EVENT"
-                                            }
-                                        ]
-                                    }
-                                ],
+                                "eventMappings": [],
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
                                     "value": null
@@ -247,7 +201,7 @@
                                     },
                                     "type": {
                                         "type": "JSON_LITERAL",
-                                        "value": "text"
+                                        "value": "number"
                                     },
                                     "value": {
                                         "binding": {
@@ -268,53 +222,7 @@
                                 },
                                 "elementId": "threshold",
                                 "elementLabel": "Threshold",
-                                "eventMappings": [
-                                    {
-                                        "eventMappingId": "cmccthccnhhsaabbbkccahhuhhydfftdddj",
-                                        "isConfiguration": false,
-                                        "offRowStorageId": null,
-                                        "sourceEventApiName": "sn_input.NOW_INPUT#VALUE_SET",
-                                        "sourceEventCorrelationId": null,
-                                        "sourceEventDefinition": {
-                                            "apiName": "sn_input.NOW_INPUT#VALUE_SET",
-                                            "id": null,
-                                            "type": "UXEVENT"
-                                        },
-                                        "sourceEventSysId": null,
-                                        "targets": [
-                                            {
-                                                "broker": null,
-                                                "clientScript": null,
-                                                "conditional": null,
-                                                "declarativeAction": null,
-                                                "event": {
-                                                    "apiName": "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
-                                                    "payload": {
-                                                        "container": {
-                                                            "propName": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": "threshold"
-                                                            },
-                                                            "value": {
-                                                                "binding": {
-                                                                    "address": [
-                                                                        "value"
-                                                                    ]
-                                                                },
-                                                                "type": "EVENT_PAYLOAD_BINDING"
-                                                            }
-                                                        },
-                                                        "type": "MAP_CONTAINER"
-                                                    },
-                                                    "sysId": "32408b42ff7a10109046e490703bf176"
-                                                },
-                                                "operation": null,
-                                                "targetId": "cmccthccnhhsaabbblccahhuyzczhhvxi",
-                                                "type": "EVENT"
-                                            }
-                                        ]
-                                    }
-                                ],
+                                "eventMappings": [],
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
                                     "value": null
@@ -437,7 +345,7 @@
                                     },
                                     "type": {
                                         "type": "JSON_LITERAL",
-                                        "value": "text"
+                                        "value": "number"
                                     },
                                     "value": {
                                         "binding": {
@@ -458,53 +366,7 @@
                                 },
                                 "elementId": "turn",
                                 "elementLabel": "Turn",
-                                "eventMappings": [
-                                    {
-                                        "eventMappingId": "cmccthddccjuaabbcggccahhuvddypiiggggh",
-                                        "isConfiguration": false,
-                                        "offRowStorageId": null,
-                                        "sourceEventApiName": "sn_input.NOW_INPUT#VALUE_SET",
-                                        "sourceEventCorrelationId": null,
-                                        "sourceEventDefinition": {
-                                            "apiName": "sn_input.NOW_INPUT#VALUE_SET",
-                                            "id": null,
-                                            "type": "UXEVENT"
-                                        },
-                                        "sourceEventSysId": null,
-                                        "targets": [
-                                            {
-                                                "broker": null,
-                                                "clientScript": null,
-                                                "conditional": null,
-                                                "declarativeAction": null,
-                                                "event": {
-                                                    "apiName": "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
-                                                    "payload": {
-                                                        "container": {
-                                                            "propName": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": "turn"
-                                                            },
-                                                            "value": {
-                                                                "binding": {
-                                                                    "address": [
-                                                                        "value"
-                                                                    ]
-                                                                },
-                                                                "type": "EVENT_PAYLOAD_BINDING"
-                                                            }
-                                                        },
-                                                        "type": "MAP_CONTAINER"
-                                                    },
-                                                    "sysId": "32408b42ff7a10109046e490703bf176"
-                                                },
-                                                "operation": null,
-                                                "targetId": "cmccthddccjuaabbchhccahhurjcjddvjjx",
-                                                "type": "EVENT"
-                                            }
-                                        ]
-                                    }
-                                ],
+                                "eventMappings": [],
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
                                     "value": null
@@ -627,7 +489,7 @@
                                     },
                                     "type": {
                                         "type": "JSON_LITERAL",
-                                        "value": "text"
+                                        "value": "number"
                                     },
                                     "value": {
                                         "binding": {
@@ -648,53 +510,7 @@
                                 },
                                 "elementId": "mulligan",
                                 "elementLabel": "Mulligan",
-                                "eventMappings": [
-                                    {
-                                        "eventMappingId": "cmccthddnhhiiaabbcsccahhushhggwhhwqz",
-                                        "isConfiguration": false,
-                                        "offRowStorageId": null,
-                                        "sourceEventApiName": "sn_input.NOW_INPUT#VALUE_SET",
-                                        "sourceEventCorrelationId": null,
-                                        "sourceEventDefinition": {
-                                            "apiName": "sn_input.NOW_INPUT#VALUE_SET",
-                                            "id": null,
-                                            "type": "UXEVENT"
-                                        },
-                                        "sourceEventSysId": null,
-                                        "targets": [
-                                            {
-                                                "broker": null,
-                                                "clientScript": null,
-                                                "conditional": null,
-                                                "declarativeAction": null,
-                                                "event": {
-                                                    "apiName": "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
-                                                    "payload": {
-                                                        "container": {
-                                                            "propName": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": "mulligan"
-                                                            },
-                                                            "value": {
-                                                                "binding": {
-                                                                    "address": [
-                                                                        "value"
-                                                                    ]
-                                                                },
-                                                                "type": "EVENT_PAYLOAD_BINDING"
-                                                            }
-                                                        },
-                                                        "type": "MAP_CONTAINER"
-                                                    },
-                                                    "sysId": "32408b42ff7a10109046e490703bf176"
-                                                },
-                                                "operation": null,
-                                                "targetId": "cmccthddnhhiiaabbctccahhugmckmkiiu",
-                                                "type": "EVENT"
-                                            }
-                                        ]
-                                    }
-                                ],
+                                "eventMappings": [],
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
                                     "value": null
@@ -817,7 +633,7 @@
                                     },
                                     "type": {
                                         "type": "JSON_LITERAL",
-                                        "value": "text"
+                                        "value": "number"
                                     },
                                     "value": {
                                         "binding": {
@@ -984,7 +800,7 @@
                                                         "elementLabel": "Button 1",
                                                         "eventMappings": [
                                                             {
-                                                                "eventMappingId": "cmccteejjbbbbnaabbiiiccahhunhhwoxyddd",
+                                                                "eventMappingId": "cmddhhnsebbiaabbeeoccahhukzeefriiggl",
                                                                 "isConfiguration": false,
                                                                 "offRowStorageId": null,
                                                                 "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
@@ -1043,7 +859,7 @@
                                                                             "sysId": "8256909d83691e101e31f1e6feaad314"
                                                                         },
                                                                         "operation": null,
-                                                                        "targetId": "cmccteejjbbbboaabbiijccahhupdlxgpxee",
+                                                                        "targetId": "cmddhhnsebbiaabbeepccahhuciytbmffbb",
                                                                         "type": "EVENT"
                                                                     }
                                                                 ]
@@ -1554,29 +1370,29 @@
         "valueType": "number"
     },
     {
-        "fieldType": "string",
+        "fieldType": "number",
         "id": "",
         "initialValue": {
             "type": "JSON_LITERAL",
-            "value": "53"
+            "value": 53
         },
         "name": "percent_chance",
         "shape": "",
-        "valueType": "string"
+        "valueType": "number"
     }
 ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-25 18:20:10</sys_created_on>
         <sys_id>0a228ed88329d6101e31f1e6feaad334</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
         <sys_update_name>sys_ux_macroponent_0a228ed88329d6101e31f1e6feaad334</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-28 20:30:53</sys_updated_on>
+        <sys_updated_on>2024-11-07 20:15:51</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=0a228ed88329d6101e31f1e6feaad334"/>
 </record_update>

@@ -850,19 +850,19 @@
                                         "value": {
                                             "code": null,
                                             "comment": "",
-                                            "message": "Please add components into the carousel"
+                                            "message": "Get building!"
                                         }
                                     },
                                     "emptyStateIllustration": {
                                         "type": "JSON_LITERAL",
-                                        "value": "completed-tasks"
+                                        "value": "first-time-user"
                                     },
                                     "emptyStateLabel": {
                                         "type": "TRANSLATION_LITERAL",
                                         "value": {
                                             "code": null,
                                             "comment": "",
-                                            "message": "No content to display"
+                                            "message": "No new decks"
                                         }
                                     },
                                     "gradientStyle": {
@@ -875,7 +875,7 @@
                                     },
                                     "hideLink": {
                                         "type": "JSON_LITERAL",
-                                        "value": false
+                                        "value": true
                                     },
                                     "hideTitle": {
                                         "type": "JSON_LITERAL",
@@ -1698,8 +1698,12 @@
                                                                 "value": "default"
                                                             },
                                                             "description": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
+                                                                "type": "TRANSLATION_LITERAL",
+                                                                "value": {
+                                                                    "code": null,
+                                                                    "comment": "",
+                                                                    "message": "I don't know why it's so small."
+                                                                }
                                                             },
                                                             "drilldownLabel": {
                                                                 "type": "JSON_LITERAL",
@@ -1747,7 +1751,7 @@
                                                             },
                                                             "followFilters": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": true
+                                                                "value": false
                                                             },
                                                             "forecastConfig": {
                                                                 "type": "JSON_LITERAL",
@@ -1787,7 +1791,7 @@
                                                             },
                                                             "headingLevel": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": 2
+                                                                "value": 1
                                                             },
                                                             "headingPosition": {
                                                                 "type": "JSON_LITERAL",
@@ -1955,7 +1959,7 @@
                                                             },
                                                             "showFilterIcon": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": true
+                                                                "value": false
                                                             },
                                                             "showFirstGroupAggregate": {
                                                                 "type": "JSON_LITERAL",
@@ -2103,7 +2107,7 @@
                                                             }
                                                         },
                                                         "slot": null,
-                                                        "styles": null
+                                                        "styles": {}
                                                     }
                                                 ],
                                                 "layout": {
@@ -2112,7 +2116,15 @@
                                                         "items": [
                                                             {
                                                                 "element_id": "semi_donut_1",
-                                                                "styles": {}
+                                                                "styles": {
+                                                                    "align-self": "stretch",
+                                                                    "flex": "1 0 auto",
+                                                                    "margin": "var(--now-scalable-space--xs)",
+                                                                    "margin-bottom": "var(--now-scalable-space--xs)",
+                                                                    "margin-left": "var(--now-scalable-space--xs)",
+                                                                    "margin-right": "var(--now-scalable-space--xs)",
+                                                                    "margin-top": "var(--now-scalable-space--xs)"
+                                                                }
                                                             }
                                                         ],
                                                         "root": null,
@@ -2131,7 +2143,16 @@
                                                 }
                                             },
                                             "preset": null,
-                                            "propertyValues": {},
+                                            "propertyValues": {
+                                                "hideEmptyStateUi": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": true
+                                                },
+                                                "type": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "section"
+                                                }
+                                            },
                                             "scratchPad": {
                                                 "uib": {
                                                     "layout": {
@@ -2167,11 +2188,11 @@
                                                 "composition": [
                                                     {
                                                         "definition": {
-                                                            "id": "d24d53f60350de7a652caf3188a46ed2",
+                                                            "id": "18ac962264404bcc0039359d184b15f3",
                                                             "type": "MACROPONENT"
                                                         },
-                                                        "elementId": "single_score_2",
-                                                        "elementLabel": "Single score 2",
+                                                        "elementId": "line_1",
+                                                        "elementLabel": "Line 1",
                                                         "eventMappings": [],
                                                         "isHidden": {
                                                             "type": "JSON_LITERAL",
@@ -2211,6 +2232,10 @@
                                                                 "type": "JSON_LITERAL",
                                                                 "value": null
                                                             },
+                                                            "chartVariation": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "stacked"
+                                                            },
                                                             "colorConfig": {
                                                                 "type": "JSON_LITERAL",
                                                                 "value": {
@@ -2238,14 +2263,81 @@
                                                                 "value": null
                                                             },
                                                             "dataSources": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
+                                                                "container": [
+                                                                    {
+                                                                        "container": {
+                                                                            "allowRealTime": {
+                                                                                "type": "JSON_LITERAL",
+                                                                                "value": true
+                                                                            },
+                                                                            "dataCategories": {
+                                                                                "type": "JSON_LITERAL",
+                                                                                "value": [
+                                                                                    "trend",
+                                                                                    "group",
+                                                                                    "simple"
+                                                                                ]
+                                                                            },
+                                                                            "filterQuery": {
+                                                                                "type": "JSON_LITERAL",
+                                                                                "value": "sys_created_by=javascript: gs.getUserName();"
+                                                                            },
+                                                                            "id": {
+                                                                                "type": "JSON_LITERAL",
+                                                                                "value": "dGFibGV4XzEzNDc4NTdfZGVja19zdGFfZGVjazE3MzA5OTEwNTU2NzQ="
+                                                                            },
+                                                                            "isDatabaseView": {
+                                                                                "type": "JSON_LITERAL",
+                                                                                "value": false
+                                                                            },
+                                                                            "label": {
+                                                                                "type": "TRANSLATION_LITERAL",
+                                                                                "value": {
+                                                                                    "code": null,
+                                                                                    "comment": "",
+                                                                                    "message": "Deck"
+                                                                                }
+                                                                            },
+                                                                            "preferredVisualizations": {
+                                                                                "type": "JSON_LITERAL",
+                                                                                "value": [
+                                                                                    "d24d53f60350de7a652caf3188a46ed2"
+                                                                                ]
+                                                                            },
+                                                                            "reportSourceSysId": {
+                                                                                "type": "JSON_LITERAL"
+                                                                            },
+                                                                            "sourceType": {
+                                                                                "type": "JSON_LITERAL",
+                                                                                "value": "table"
+                                                                            },
+                                                                            "tableOrViewName": {
+                                                                                "type": "JSON_LITERAL",
+                                                                                "value": "x_1347857_deck_sta_deck"
+                                                                            }
+                                                                        },
+                                                                        "type": "MAP_CONTAINER"
+                                                                    }
+                                                                ],
+                                                                "type": "LIST_CONTAINER"
                                                             },
                                                             "dateFormat": {
                                                                 "type": "JSON_LITERAL",
                                                                 "value": "default"
                                                             },
                                                             "description": {
+                                                                "type": "TRANSLATION_LITERAL",
+                                                                "value": {
+                                                                    "code": null,
+                                                                    "comment": "",
+                                                                    "message": "Why is this so small?"
+                                                                }
+                                                            },
+                                                            "disableTooltip": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": false
+                                                            },
+                                                            "drilldownLabel": {
                                                                 "type": "JSON_LITERAL",
                                                                 "value": null
                                                             },
@@ -2283,15 +2375,19 @@
                                                             },
                                                             "enableRealTimeUpdate": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": false
+                                                                "value": null
                                                             },
                                                             "endTime": {
                                                                 "type": "JSON_LITERAL",
                                                                 "value": null
                                                             },
+                                                            "extensionType": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "line"
+                                                            },
                                                             "followFilters": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": true
+                                                                "value": false
                                                             },
                                                             "forecastConfig": {
                                                                 "type": "JSON_LITERAL",
@@ -2299,15 +2395,37 @@
                                                             },
                                                             "groupBy": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": null
+                                                                "value": [
+                                                                    {
+                                                                        "disableRanges": false,
+                                                                        "groupBy": [
+                                                                            {
+                                                                                "dataSource": "dGFibGV4XzEzNDc4NTdfZGVja19zdGFfZGVjazE3MzA5OTEwNTU2NzQ=",
+                                                                                "groupByField": "play_style",
+                                                                                "isChoice": true,
+                                                                                "isPaBucket": false,
+                                                                                "isRange": false,
+                                                                                "metric": "ZEdGaWJHVjRYekV6TkRjNE5UZGZaR1ZqYTE5emRHRmZaR1ZqYXpFM016QTVPVEV3TlRVMk56UT0xNzMwOTkxMDU4Nzg4"
+                                                                            }
+                                                                        ],
+                                                                        "hideZeroValues": false,
+                                                                        "maxNumberOfGroups": "ALL",
+                                                                        "numberOfGroupsBasedOn": "NO_OF_GROUP_BASED_ON_PER_METRIC",
+                                                                        "showOthers": false
+                                                                    }
+                                                                ]
                                                             },
                                                             "groupByConfig": {
                                                                 "type": "JSON_LITERAL",
                                                                 "value": null
                                                             },
                                                             "headerTitle": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
+                                                                "type": "TRANSLATION_LITERAL",
+                                                                "value": {
+                                                                    "code": null,
+                                                                    "comment": "",
+                                                                    "message": "My Builds by Month"
+                                                                }
                                                             },
                                                             "headingLevel": {
                                                                 "type": "JSON_LITERAL",
@@ -2325,13 +2443,85 @@
                                                                 "type": "JSON_LITERAL",
                                                                 "value": false
                                                             },
+                                                            "hideYAxis0": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": false
+                                                            },
+                                                            "hideYAxis1": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": false
+                                                            },
+                                                            "hideYAxis2": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": false
+                                                            },
+                                                            "hideYAxis3": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": false
+                                                            },
+                                                            "hideYAxis4": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": false
+                                                            },
                                                             "iconStyle": {
                                                                 "type": "JSON_LITERAL",
                                                                 "value": "background"
                                                             },
-                                                            "metrics": {
+                                                            "legendExpandToFit": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": false
+                                                            },
+                                                            "legendHorizontalAlignment": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "center"
+                                                            },
+                                                            "legendMaxItemWidth": {
                                                                 "type": "JSON_LITERAL",
                                                                 "value": null
+                                                            },
+                                                            "legendPosition": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "bottom"
+                                                            },
+                                                            "lineStrokeWidth": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "2"
+                                                            },
+                                                            "metrics": {
+                                                                "container": [
+                                                                    {
+                                                                        "container": {
+                                                                            "aggregateField": {
+                                                                                "type": "JSON_LITERAL",
+                                                                                "value": "sys_id"
+                                                                            },
+                                                                            "aggregateFunction": {
+                                                                                "type": "JSON_LITERAL",
+                                                                                "value": "COUNT(DISTINCT"
+                                                                            },
+                                                                            "axisId": {
+                                                                                "type": "JSON_LITERAL",
+                                                                                "value": "primary"
+                                                                            },
+                                                                            "dataSource": {
+                                                                                "type": "JSON_LITERAL",
+                                                                                "value": "dGFibGV4XzEzNDc4NTdfZGVja19zdGFfZGVjazE3MzA5OTEwNTU2NzQ="
+                                                                            },
+                                                                            "id": {
+                                                                                "type": "JSON_LITERAL",
+                                                                                "value": "ZEdGaWJHVjRYekV6TkRjNE5UZGZaR1ZqYTE5emRHRmZaR1ZqYXpFM016QTVPVEV3TlRVMk56UT0xNzMwOTkxMDU4Nzg4"
+                                                                            },
+                                                                            "numberFormat": {
+                                                                                "type": "JSON_LITERAL",
+                                                                                "value": {
+                                                                                    "customFormat": false
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        "type": "MAP_CONTAINER"
+                                                                    }
+                                                                ],
+                                                                "type": "LIST_CONTAINER"
                                                             },
                                                             "newReporting": {
                                                                 "type": "JSON_LITERAL",
@@ -2347,7 +2537,7 @@
                                                             },
                                                             "period": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": "M"
+                                                                "value": null
                                                             },
                                                             "refreshFrequency": {
                                                                 "type": "JSON_LITERAL",
@@ -2387,13 +2577,17 @@
                                                             },
                                                             "showChange": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": false
+                                                                "value": null
                                                             },
                                                             "showChangeFrom": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": "previous"
+                                                                "value": null
                                                             },
                                                             "showChangePercentage": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "showClosestSeriesOnHover": {
                                                                 "type": "JSON_LITERAL",
                                                                 "value": false
                                                             },
@@ -2402,6 +2596,10 @@
                                                                 "value": false
                                                             },
                                                             "showConfidenceBand": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": false
+                                                            },
+                                                            "showDataLabels": {
                                                                 "type": "JSON_LITERAL",
                                                                 "value": false
                                                             },
@@ -2419,7 +2617,7 @@
                                                             },
                                                             "showFilterIcon": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": true
+                                                                "value": false
                                                             },
                                                             "showFirstGroupAggregate": {
                                                                 "type": "JSON_LITERAL",
@@ -2435,13 +2633,21 @@
                                                             },
                                                             "showGapPercentage": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": false
+                                                                "value": null
                                                             },
                                                             "showHeader": {
                                                                 "type": "JSON_LITERAL",
                                                                 "value": true
                                                             },
                                                             "showHeaderSeparator": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": true
+                                                            },
+                                                            "showLegend": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": true
+                                                            },
+                                                            "showLegendValue": {
                                                                 "type": "JSON_LITERAL",
                                                                 "value": false
                                                             },
@@ -2451,7 +2657,7 @@
                                                             },
                                                             "showMetricLabel": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": false
+                                                                "value": null
                                                             },
                                                             "showRefresh": {
                                                                 "type": "JSON_LITERAL",
@@ -2471,7 +2677,7 @@
                                                             },
                                                             "showSparkline": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": false
+                                                                "value": null
                                                             },
                                                             "showSubAggregate": {
                                                                 "type": "JSON_LITERAL",
@@ -2497,13 +2703,21 @@
                                                                 "type": "JSON_LITERAL",
                                                                 "value": false
                                                             },
+                                                            "showXGrid": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": false
+                                                            },
+                                                            "showYGrid": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": true
+                                                            },
                                                             "showZero": {
                                                                 "type": "JSON_LITERAL",
                                                                 "value": true
                                                             },
                                                             "sortBy": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": null
+                                                                "value": "value"
                                                             },
                                                             "sortByOrder": {
                                                                 "type": "JSON_LITERAL",
@@ -2531,7 +2745,16 @@
                                                             },
                                                             "trendBy": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": null
+                                                                "value": {
+                                                                    "trendByFields": [
+                                                                        {
+                                                                            "field": "sys_created_on",
+                                                                            "metric": "ZEdGaWJHVjRYekV6TkRjNE5UZGZaR1ZqYTE5emRHRmZaR1ZqYXpFM016QTVPVEV3TlRVMk56UT0xNzMwOTkxMDU4Nzg4"
+                                                                        }
+                                                                    ],
+                                                                    "trendByFrequency": "month",
+                                                                    "trendByMinuteInterval": null
+                                                                }
                                                             },
                                                             "useDataCache": {
                                                                 "type": "JSON_LITERAL",
@@ -2544,6 +2767,94 @@
                                                             "wrapTitle": {
                                                                 "type": "JSON_LITERAL",
                                                                 "value": false
+                                                            },
+                                                            "xAxisTitle": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "yAxis0From": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "yAxis0Position": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "left"
+                                                            },
+                                                            "yAxis0Title": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "yAxis0To": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "yAxis1From": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "yAxis1Position": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "right"
+                                                            },
+                                                            "yAxis1Title": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "yAxis1To": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "yAxis2From": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "yAxis2Position": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "right"
+                                                            },
+                                                            "yAxis2Title": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "yAxis2To": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "yAxis3From": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "yAxis3Position": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "right"
+                                                            },
+                                                            "yAxis3Title": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "yAxis3To": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "yAxis4From": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "yAxis4Position": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "right"
+                                                            },
+                                                            "yAxis4Title": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "yAxis4To": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "yAxisStyle": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "default"
                                                             }
                                                         },
                                                         "slot": null,
@@ -2555,7 +2866,7 @@
                                                         "children": null,
                                                         "items": [
                                                             {
-                                                                "element_id": "single_score_2",
+                                                                "element_id": "line_1",
                                                                 "styles": {
                                                                     "margin": "var(--now-scalable-space--xs)",
                                                                     "margin-bottom": "var(--now-scalable-space--xs)",
@@ -3092,6 +3403,15 @@
   "message" : "Deck",
   "comment" : ""
 }, {
+  "message" : "Get building!",
+  "comment" : ""
+}, {
+  "message" : "I don't know why it's so small.",
+  "comment" : ""
+}, {
+  "message" : "My Builds by Month",
+  "comment" : ""
+}, {
   "message" : "My Decks",
   "comment" : ""
 }, {
@@ -3101,16 +3421,16 @@
   "message" : "New Decks",
   "comment" : ""
 }, {
-  "message" : "No content to display",
-  "comment" : ""
-}, {
   "message" : "No data available.",
   "comment" : ""
 }, {
-  "message" : "Please add components into the carousel",
+  "message" : "No new decks",
   "comment" : ""
 }, {
   "message" : "View all",
+  "comment" : ""
+}, {
+  "message" : "Why is this so small?",
   "comment" : ""
 } ]</required_translations>
         <root_component/>
@@ -3123,14 +3443,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-24 17:34:52</sys_created_on>
         <sys_id>dc3e204825695610cf4309a96a7fb618</sys_id>
-        <sys_mod_count>101</sys_mod_count>
+        <sys_mod_count>117</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
         <sys_update_name>sys_ux_macroponent_dc3e204825695610cf4309a96a7fb618</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-05 21:10:24</sys_updated_on>
+        <sys_updated_on>2024-11-07 14:55:06</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=dc3e204825695610cf4309a96a7fb618"/>
 </record_update>

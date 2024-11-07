@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config/>
+        <description/>
+        <disable_auto_reflow>true</disable_auto_reflow>
+        <event_mappings/>
+        <macroponent display_value="Default">da5b80e08375d2101e31f1e6feaad368</macroponent>
+        <macroponent_config/>
+        <name>Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="UXR Base Experience Shell">76a83a645b122010b913030a1d81c780</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Look at this Graph">965b80e08375d2101e31f1e6feaad362</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-07 14:35:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9e5b80e08375d2101e31f1e6feaad36b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
+        <sys_update_name>sys_ux_screen_9e5b80e08375d2101e31f1e6feaad36b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-07 14:35:16</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=9e5b80e08375d2101e31f1e6feaad36b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</application>
+        <file_path/>
+        <instance_id>6745fffddbfd3d14199b1729139619f5</instance_id>
+        <instance_name>dev183095</instance_name>
+        <name>sys_ux_screen_9e5b80e08375d2101e31f1e6feaad36b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config/><description/><disable_auto_reflow>true</disable_auto_reflow><event_mappings/><macroponent display_value="Default">da5b80e08375d2101e31f1e6feaad368</macroponent><macroponent_config/><name>Default</name><order>0</order><parent_macroponent display_value="UXR Base Experience Shell">76a83a645b122010b913030a1d81c780</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition/><screen_type display_value="Look at this Graph">965b80e08375d2101e31f1e6feaad362</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-07 14:35:16</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9e5b80e08375d2101e31f1e6feaad36b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Default</sys_name><sys_overrides/><sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package><sys_policy/><sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope><sys_update_name>sys_ux_screen_9e5b80e08375d2101e31f1e6feaad36b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-07 14:35:16</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=9e5b80e08375d2101e31f1e6feaad36b"/></record_update>]]></payload>
+        <payload_hash>-703306689</payload_hash>
+        <record_name>Default</record_name>
+        <reverted_from/>
+        <source>cec6bddb839952101e31f1e6feaad3e0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-07 14:35:16</sys_created_on>
+        <sys_id>e25b80e08375d2101e31f1e6feaad3ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193070d0fc50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-07 14:35:16</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>d25b80e00e75d210ec2a90ee2aaee16e</update_guid>
+        <update_guid_history>d25b80e00e75d210ec2a90ee2aaee16e:-703306689</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-07 14:36:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>1e24e07f13bf4b43af1dd85a11013251</sys_id>
+        <sys_metadata>9e5b80e08375d2101e31f1e6feaad36b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
+        <sys_scope_delete display_value="">08ceccbc51ce44dc976bb9917edde310</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_9e5b80e08375d2101e31f1e6feaad36b</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_9e5b80e08375d2101e31f1e6feaad36b">e25b80e08375d2101e31f1e6feaad3ad</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-07 14:36:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
