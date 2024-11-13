@@ -4,13 +4,13 @@
             <element>name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-07 15:18:23</sys_created_on>
-            <sys_id>063514a083b5d2101e31f1e6feaad312</sys_id>
+            <sys_created_on>2024-11-13 14:36:21</sys_created_on>
+            <sys_id>302507da833112101e31f1e6feaad336</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1347857_deck_sta_deck" sys_domain="global" view="d43e20480d695610856427490bd0751d">6a3ea048836956101e31f1e6feaad3ea</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-07 15:18:23</sys_updated_on>
+            <sys_updated_on>2024-11-13 14:36:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-07 15:18:23</sys_created_on>
-            <sys_id>0e3514a083b5d2101e31f1e6feaad312</sys_id>
+            <sys_created_on>2024-11-13 14:36:21</sys_created_on>
+            <sys_id>382507da833112101e31f1e6feaad336</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1347857_deck_sta_deck" sys_domain="global" view="d43e20480d695610856427490bd0751d">6a3ea048836956101e31f1e6feaad3ea</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-07 15:18:23</sys_updated_on>
+            <sys_updated_on>2024-11-13 14:36:21</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -32,97 +32,139 @@
             <element>commander</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-07 15:18:23</sys_created_on>
-            <sys_id>063514a083b5d2101e31f1e6feaad313</sys_id>
+            <sys_created_on>2024-11-13 14:36:21</sys_created_on>
+            <sys_id>302507da833112101e31f1e6feaad337</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1347857_deck_sta_deck" sys_domain="global" view="d43e20480d695610856427490bd0751d">6a3ea048836956101e31f1e6feaad3ea</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-07 15:18:23</sys_updated_on>
+            <sys_updated_on>2024-11-13 14:36:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>partner_commander</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-13 14:36:21</sys_created_on>
+            <sys_id>382507da833112101e31f1e6feaad337</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1347857_deck_sta_deck" sys_domain="global" view="d43e20480d695610856427490bd0751d">6a3ea048836956101e31f1e6feaad3ea</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-13 14:36:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-07 15:18:23</sys_created_on>
-            <sys_id>0e3514a083b5d2101e31f1e6feaad313</sys_id>
+            <sys_created_on>2024-11-13 14:36:21</sys_created_on>
+            <sys_id>302507da833112101e31f1e6feaad338</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1347857_deck_sta_deck" sys_domain="global" view="d43e20480d695610856427490bd0751d">6a3ea048836956101e31f1e6feaad3ea</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-07 15:18:23</sys_updated_on>
+            <sys_updated_on>2024-11-13 14:36:21</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>commander_mana_value</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-07 15:18:23</sys_created_on>
-            <sys_id>063514a083b5d2101e31f1e6feaad314</sys_id>
+            <sys_created_on>2024-11-13 14:36:21</sys_created_on>
+            <sys_id>382507da833112101e31f1e6feaad338</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1347857_deck_sta_deck" sys_domain="global" view="d43e20480d695610856427490bd0751d">6a3ea048836956101e31f1e6feaad3ea</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-07 15:18:23</sys_updated_on>
+            <sys_updated_on>2024-11-13 14:36:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>partner_mana_value</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-13 14:36:21</sys_created_on>
+            <sys_id>302507da833112101e31f1e6feaad339</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1347857_deck_sta_deck" sys_domain="global" view="d43e20480d695610856427490bd0751d">6a3ea048836956101e31f1e6feaad3ea</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-13 14:36:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>partner</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-13 14:36:21</sys_created_on>
+            <sys_id>382507da833112101e31f1e6feaad339</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1347857_deck_sta_deck" sys_domain="global" view="d43e20480d695610856427490bd0751d">6a3ea048836956101e31f1e6feaad3ea</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-13 14:36:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>5</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-07 15:18:23</sys_created_on>
-            <sys_id>0e3514a083b5d2101e31f1e6feaad314</sys_id>
+            <sys_created_on>2024-11-13 14:36:21</sys_created_on>
+            <sys_id>302507da833112101e31f1e6feaad33a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1347857_deck_sta_deck" sys_domain="global" view="d43e20480d695610856427490bd0751d">6a3ea048836956101e31f1e6feaad3ea</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-07 15:18:23</sys_updated_on>
+            <sys_updated_on>2024-11-13 14:36:21</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>play_style</element>
-            <position>6</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-07 15:18:23</sys_created_on>
-            <sys_id>063514a083b5d2101e31f1e6feaad315</sys_id>
+            <sys_created_on>2024-11-13 14:36:21</sys_created_on>
+            <sys_id>382507da833112101e31f1e6feaad33a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1347857_deck_sta_deck" sys_domain="global" view="d43e20480d695610856427490bd0751d">6a3ea048836956101e31f1e6feaad3ea</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-07 15:18:23</sys_updated_on>
+            <sys_updated_on>2024-11-13 14:36:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>short_description</element>
-            <position>7</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-07 15:18:23</sys_created_on>
-            <sys_id>0e3514a083b5d2101e31f1e6feaad315</sys_id>
+            <sys_created_on>2024-11-13 14:36:21</sys_created_on>
+            <sys_id>302507da833112101e31f1e6feaad33b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1347857_deck_sta_deck" sys_domain="global" view="d43e20480d695610856427490bd0751d">6a3ea048836956101e31f1e6feaad3ea</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-07 15:18:23</sys_updated_on>
+            <sys_updated_on>2024-11-13 14:36:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>color_s</element>
-            <position>8</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-07 15:18:23</sys_created_on>
-            <sys_id>063514a083b5d2101e31f1e6feaad316</sys_id>
+            <sys_created_on>2024-11-13 14:36:21</sys_created_on>
+            <sys_id>382507da833112101e31f1e6feaad33b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1347857_deck_sta_deck" sys_domain="global" view="d43e20480d695610856427490bd0751d">6a3ea048836956101e31f1e6feaad3ea</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-07 15:18:23</sys_updated_on>
+            <sys_updated_on>2024-11-13 14:36:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

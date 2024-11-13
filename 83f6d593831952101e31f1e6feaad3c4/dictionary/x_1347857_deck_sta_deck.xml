@@ -19,6 +19,9 @@
         <element label="Land count" mandatory="true" max_length="2" name="land_count" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Partner" max_length="40" name="partner" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Partner commander" max_length="40" name="partner_commander" type="string"/>
+        <element label="Partner mana value" max_length="40" name="partner_mana_value" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Playtesting notes" max_length="4000" name="playtesting_notes" type="journal_input"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Play style" mandatory="true" max_length="40" name="play_style" type="string">
             <choice>
