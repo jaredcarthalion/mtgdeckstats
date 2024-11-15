@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>current.canWrite()</condition>
+        <condition>current.canWrite()&amp;&amp;gs.hasRole("x_1347857_deck_sta.admin")</condition>
         <form_action>false</form_action>
         <form_button>false</form_button>
         <form_button_v2>false</form_button_v2>
@@ -57,7 +57,7 @@ while (deckGR.next()) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7b2026eb8355d2101e31f1e6feaad329</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Recalculate List</sys_name>
         <sys_overrides/>
         <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
@@ -65,7 +65,7 @@ while (deckGR.next()) {
         <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
         <sys_update_name>sys_ui_action_7b2026eb8355d2101e31f1e6feaad329</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-23 12:52:06</sys_updated_on>
+        <sys_updated_on>2024-11-15 20:18:57</sys_updated_on>
         <table>x_1347857_deck_sta_deck</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
