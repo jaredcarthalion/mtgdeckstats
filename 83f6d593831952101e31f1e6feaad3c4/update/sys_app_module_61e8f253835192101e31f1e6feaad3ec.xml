@@ -18,14 +18,14 @@
         <query>system_properties_ui.do?sysparm_title=Calculation Properties&amp;sysparm_category=Calculation Properties</query>
         <report/>
         <require_confirmation>true</require_confirmation>
-        <roles>x_1347857_deck_sta.admin</roles>
+        <roles>x_1347857_deck_sta.player</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-22 19:49:17</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>61e8f253835192101e31f1e6feaad3ec</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Properties</sys_name>
         <sys_overrides/>
         <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
         <sys_update_name>sys_app_module_61e8f253835192101e31f1e6feaad3ec</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-23 12:16:52</sys_updated_on>
+        <sys_updated_on>2024-11-15 21:45:40</sys_updated_on>
         <timeline_page/>
         <title>Properties</title>
         <uncancelable>false</uncancelable>

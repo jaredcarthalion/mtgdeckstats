@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config/>
+        <description/>
+        <extension_point display_value="Deck Pages">1cbb059483e1d6101e31f1e6feaad341</extension_point>
+        <fields/>
+        <icon/>
+        <name>Quick Calculator</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="UXR Base Experience Shell">76a83a645b122010b913030a1d81c780</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>quick-calculator</route_type>
+        <screen_type display_value="Quick Calculator">3a6354ae83f512101e31f1e6feaad3ca</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-13 20:18:22</sys_created_on>
+        <sys_id>7a6354ae83f512101e31f1e6feaad3cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Quick Calculator</sys_name>
+        <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
+        <sys_update_name>sys_ux_app_route_7a6354ae83f512101e31f1e6feaad3cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-13 20:18:22</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=7a6354ae83f512101e31f1e6feaad3cf"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</application>
+        <file_path/>
+        <instance_id>6745fffddbfd3d14199b1729139619f5</instance_id>
+        <instance_name>dev183095</instance_name>
+        <name>sys_ux_app_route_7a6354ae83f512101e31f1e6feaad3cf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config/><description/><extension_point display_value="Deck Pages">1cbb059483e1d6101e31f1e6feaad341</extension_point><fields/><icon/><name>Quick Calculator</name><optional_parameters/><order>0</order><parent_macroponent display_value="UXR Base Experience Shell">76a83a645b122010b913030a1d81c780</parent_macroponent><parent_macroponent_composition_element_id/><route_type>quick-calculator</route_type><screen_type display_value="Quick Calculator">3a6354ae83f512101e31f1e6feaad3ca</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-13 20:18:22</sys_created_on><sys_id>7a6354ae83f512101e31f1e6feaad3cf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Quick Calculator</sys_name><sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package><sys_policy/><sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope><sys_update_name>sys_ux_app_route_7a6354ae83f512101e31f1e6feaad3cf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-13 20:18:22</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=7a6354ae83f512101e31f1e6feaad3cf"/></record_update>]]></payload>
+        <payload_hash>433783271</payload_hash>
+        <record_name>Quick Calculator</record_name>
+        <reverted_from/>
+        <source>cec6bddb839952101e31f1e6feaad3e0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-13 20:18:22</sys_created_on>
+        <sys_id>f2631cae83f512101e31f1e6feaad36e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193272d54ee0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-13 20:18:22</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>7e6354aef2f5121067a1c558c930c7d1</update_guid>
+        <update_guid_history>7e6354aef2f5121067a1c558c930c7d1:433783271</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-13 20:19:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>0d84ed6cf69a47f081668454aa13b6f9</sys_id>
+        <sys_metadata>7a6354ae83f512101e31f1e6feaad3cf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Quick Calculator</sys_name>
+        <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
+        <sys_scope_delete display_value="">08ceccbc51ce44dc976bb9917edde310</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_7a6354ae83f512101e31f1e6feaad3cf</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_7a6354ae83f512101e31f1e6feaad3cf">f2631cae83f512101e31f1e6feaad36e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-13 20:19:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1473,6 +1473,7 @@
         "root": null,
         "rules": null,
         "styles": {
+            "display": "flex",
             "flex-direction": "column"
         },
         "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
@@ -1569,14 +1570,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-25 18:20:10</sys_created_on>
         <sys_id>0a228ed88329d6101e31f1e6feaad334</sys_id>
-        <sys_mod_count>49</sys_mod_count>
+        <sys_mod_count>51</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
         <sys_update_name>sys_ux_macroponent_0a228ed88329d6101e31f1e6feaad334</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-11 14:37:52</sys_updated_on>
+        <sys_updated_on>2024-11-13 20:48:46</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=0a228ed88329d6101e31f1e6feaad334"/>
 </record_update>

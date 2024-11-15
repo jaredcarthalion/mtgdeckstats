@@ -35,6 +35,131 @@
                         "composition": [
                             {
                                 "definition": {
+                                    "id": "d37ce8abca89d02905fed903c8e34d8e",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "button_1",
+                                "elementLabel": "Button 1",
+                                "eventMappings": [
+                                    {
+                                        "eventMappingId": "cmddiwzwapaaaajjrccahhubdyiajwii",
+                                        "isConfiguration": false,
+                                        "offRowStorageId": null,
+                                        "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
+                                        "sourceEventCorrelationId": null,
+                                        "sourceEventDefinition": {
+                                            "apiName": "sn_button.NOW_BUTTON#CLICKED",
+                                            "id": null,
+                                            "type": "UXEVENT"
+                                        },
+                                        "sourceEventSysId": null,
+                                        "targets": [
+                                            {
+                                                "broker": null,
+                                                "clientScript": null,
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": {
+                                                    "apiName": "sn_uxf.MACROPONENT_VIEWPORT_LOAD_REQUESTED",
+                                                    "payload": {
+                                                        "script": {
+                                                            "apiVersion": "1.0.0",
+                                                            "controllerElementId": null,
+                                                            "inlineScript": "/**\n* @param {params} params\n* @param {api} params.api\n* @param {any} params.event\n*/\nfunction evaluateEvent({api, event}) {\n\treturn {\n\t\tviewportElementId: \"modal_viewport_1\",\n\t\troute: \"draw-calculator\",\n\t\tfields: null,\n\t\tparams: null\n\t};\n}",
+                                                            "scriptSysId": null,
+                                                            "target": null
+                                                        },
+                                                        "type": "CLIENT_TRANSFORM_SCRIPT"
+                                                    },
+                                                    "sysId": "f49aa75023071010b1e3c50947bf65de"
+                                                },
+                                                "operation": null,
+                                                "targetId": "cmddiwzwapaaaajjsccahhualxcrmuu",
+                                                "type": "EVENT"
+                                            },
+                                            {
+                                                "broker": null,
+                                                "clientScript": null,
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": {
+                                                    "apiName": "x_1347857_deck_sta.MODAL_SELECTED_RELAY_dc3e204825695610cf4309a96a7fb618",
+                                                    "payload": {
+                                                        "type": "JSON_LITERAL",
+                                                        "value": {
+                                                            "bare": false,
+                                                            "displayOptions": null,
+                                                            "headerLabel": null,
+                                                            "modalId": "[component-id$='modal_viewport_1']",
+                                                            "preserveState": false,
+                                                            "showModal": true,
+                                                            "viewportElementId": "viewport_1",
+                                                            "viewportFields": null,
+                                                            "viewportParams": null,
+                                                            "viewportRoute": "draw-calculator"
+                                                        }
+                                                    },
+                                                    "sysId": "83ccbb5e837512101e31f1e6feaad32c"
+                                                },
+                                                "operation": null,
+                                                "targetId": "cmddixbbdcaaaaaajjyccahhuhnztbbvbbo",
+                                                "type": "EVENT"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "configAria": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "disabled": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "icon": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "label": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "Quick Calculation"
+                                        }
+                                    },
+                                    "landmark": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "size": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "md"
+                                    },
+                                    "tooltipContent": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "Enter a label"
+                                        }
+                                    },
+                                    "variant": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "primary"
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            },
+                            {
+                                "definition": {
                                     "id": "b2429385cb0363208b764c151e2d1171",
                                     "type": "MACROPONENT"
                                 },
@@ -299,6 +424,43 @@
                                                                                                                     },
                                                                                                                     "slot": null,
                                                                                                                     "styles": null
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "definition": {
+                                                                                                                        "id": "4335ba6dca80378f7ba7a67cd6667bec",
+                                                                                                                        "type": "MACROPONENT"
+                                                                                                                    },
+                                                                                                                    "elementId": "stylized_text_4",
+                                                                                                                    "elementLabel": "Stylized text 4",
+                                                                                                                    "eventMappings": [],
+                                                                                                                    "isHidden": null,
+                                                                                                                    "preset": null,
+                                                                                                                    "propertyValues": {
+                                                                                                                        "configAria": {
+                                                                                                                            "type": "JSON_LITERAL",
+                                                                                                                            "value": {}
+                                                                                                                        },
+                                                                                                                        "css": {
+                                                                                                                            "type": "JSON_LITERAL",
+                                                                                                                            "value": "* { }"
+                                                                                                                        },
+                                                                                                                        "tag": {
+                                                                                                                            "type": "JSON_LITERAL",
+                                                                                                                            "value": "h4"
+                                                                                                                        },
+                                                                                                                        "text": {
+                                                                                                                            "binding": {
+                                                                                                                                "address": [
+                                                                                                                                    "partner_commander",
+                                                                                                                                    "value"
+                                                                                                                                ],
+                                                                                                                                "category": "value"
+                                                                                                                            },
+                                                                                                                            "type": "REPEATER_ITEM_BINDING"
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    "slot": null,
+                                                                                                                    "styles": null
                                                                                                                 }
                                                                                                             ],
                                                                                                             "layout": {
@@ -309,11 +471,15 @@
                                                                                                                             "element_id": "stylized_text_2",
                                                                                                                             "styles": {
                                                                                                                                 "padding": "var(--now-scalable-space--lg)",
-                                                                                                                                "padding-bottom": "var(--now-scalable-space--lg)",
+                                                                                                                                "padding-bottom": "0",
                                                                                                                                 "padding-left": "var(--now-scalable-space--lg)",
                                                                                                                                 "padding-right": "var(--now-scalable-space--lg)",
                                                                                                                                 "padding-top": "var(--now-scalable-space--lg)"
                                                                                                                             }
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "element_id": "stylized_text_4",
+                                                                                                                            "styles": {}
                                                                                                                         }
                                                                                                                     ],
                                                                                                                     "root": null,
@@ -1486,7 +1652,7 @@
                                                             },
                                                             "wrapTitle": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": false
+                                                                "value": true
                                                             }
                                                         },
                                                         "slot": null,
@@ -1702,7 +1868,7 @@
                                                                 "value": {
                                                                     "code": null,
                                                                     "comment": "",
-                                                                    "message": "I don't know why it's so small."
+                                                                    "message": ""
                                                                 }
                                                             },
                                                             "drilldownLabel": {
@@ -2103,7 +2269,7 @@
                                                             },
                                                             "wrapTitle": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": false
+                                                                "value": true
                                                             }
                                                         },
                                                         "slot": null,
@@ -2280,7 +2446,7 @@
                                                                             },
                                                                             "filterQuery": {
                                                                                 "type": "JSON_LITERAL",
-                                                                                "value": "sys_created_by=javascript: gs.getUserName();"
+                                                                                "value": ""
                                                                             },
                                                                             "id": {
                                                                                 "type": "JSON_LITERAL",
@@ -2330,7 +2496,7 @@
                                                                 "value": {
                                                                     "code": null,
                                                                     "comment": "",
-                                                                    "message": "Why is this so small?"
+                                                                    "message": ""
                                                                 }
                                                             },
                                                             "disableTooltip": {
@@ -2387,7 +2553,7 @@
                                                             },
                                                             "followFilters": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": false
+                                                                "value": true
                                                             },
                                                             "forecastConfig": {
                                                                 "type": "JSON_LITERAL",
@@ -2424,12 +2590,12 @@
                                                                 "value": {
                                                                     "code": null,
                                                                     "comment": "",
-                                                                    "message": "My Builds by Month"
+                                                                    "message": "Builds by Month"
                                                                 }
                                                             },
                                                             "headingLevel": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": 2
+                                                                "value": 1
                                                             },
                                                             "headingPosition": {
                                                                 "type": "JSON_LITERAL",
@@ -2617,7 +2783,7 @@
                                                             },
                                                             "showFilterIcon": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": false
+                                                                "value": true
                                                             },
                                                             "showFirstGroupAggregate": {
                                                                 "type": "JSON_LITERAL",
@@ -2766,7 +2932,7 @@
                                                             },
                                                             "wrapTitle": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": false
+                                                                "value": true
                                                             },
                                                             "xAxisTitle": {
                                                                 "type": "JSON_LITERAL",
@@ -2868,6 +3034,7 @@
                                                             {
                                                                 "element_id": "line_1",
                                                                 "styles": {
+                                                                    "flex": "1 0 auto",
                                                                     "margin": "var(--now-scalable-space--xs)",
                                                                     "margin-bottom": "var(--now-scalable-space--xs)",
                                                                     "margin-left": "var(--now-scalable-space--xs)",
@@ -3033,6 +3200,13 @@
                                 "children": null,
                                 "items": [
                                     {
+                                        "element_id": "button_1",
+                                        "styles": {
+                                            "align-self": "center",
+                                            "padding-bottom": "var(--now-scalable-space--lg)"
+                                        }
+                                    },
+                                    {
                                         "element_id": "carousel_1",
                                         "styles": {
                                             "background": "rgb(var(--now-color--neutral-1))",
@@ -3057,6 +3231,7 @@
                                     "box-sizing": "border-box",
                                     "display": "flex",
                                     "flex-direction": "column",
+                                    "gap": "var(--now-scalable-space--sm)",
                                     "height": "100%",
                                     "overflow": "auto"
                                 },
@@ -3217,6 +3392,118 @@
         },
         "slot": null,
         "styles": null
+    },
+    {
+        "definition": {
+            "id": "9c2e3b0978b3250ef3081204f151026a",
+            "type": "MACROPONENT"
+        },
+        "elementId": "modal_viewport_1",
+        "elementLabel": "Modal viewport 1",
+        "eventMappings": [],
+        "extensionPoints": [],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "MACROPONENT_VIEWPORT_HEADLESS",
+                        "type": "MACROPONENT_VIEWPORT_HEADLESS"
+                    },
+                    "elementId": "viewport_1",
+                    "elementLabel": "Viewport 1",
+                    "eventMappings": [],
+                    "extensionPoints": [
+                        {
+                            "controllerElementId": "modeless_dialog_1",
+                            "name": "Deck Pages",
+                            "sysId": "1cbb059483e1d6101e31f1e6feaad341"
+                        }
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "pageCollectionMode": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "items": [
+                        {
+                            "element_id": "viewport_1",
+                            "styles": {}
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "display": "flex",
+                        "flex-direction": "column"
+                    },
+                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type": "flex"
+                },
+                "version": "3.0.0"
+            }
+        },
+        "preset": null,
+        "propertyValues": {
+            "bare": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "defer": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "disableDismiss": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "enableResizable": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "labelledby": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "resizableMaxHeight": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "resizableMaxWidth": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "resizableMinHeight": {
+                "type": "JSON_LITERAL",
+                "value": 133
+            },
+            "resizableMinWidth": {
+                "type": "JSON_LITERAL",
+                "value": 420
+            },
+            "size": {
+                "type": "JSON_LITERAL",
+                "value": "lg"
+            }
+        },
+        "slot": null,
+        "styles": null
     }
 ]</composition>
         <da_relay_models/>
@@ -3256,7 +3543,7 @@
             },
             "returnFields": {
                 "type": "JSON_LITERAL",
-                "value": "commander,sys_created_by,name"
+                "value": "commander,sys_created_by,name,partner_commander"
             },
             "sortType": {
                 "type": "JSON_LITERAL",
@@ -3335,11 +3622,23 @@
             }
         },
         "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "7cac5d4077343110c9d933c1fa5a99a6",
+            "type": "CONTROLLER"
+        },
+        "dependencies": {},
+        "elementId": "modeless_dialog_1",
+        "elementLabel": "Modeless dialog 1",
+        "eventMappings": [],
+        "inputValues": {},
+        "readEvaluationMode": "EAGER"
     }
 ]</data>
         <description/>
         <disable_auto_reflow>false</disable_auto_reflow>
-        <dispatched_events>583e204894695610a626032cda1dc418</dispatched_events>
+        <dispatched_events>583e204894695610a626032cda1dc418,83ccbb5e837512101e31f1e6feaad32c</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
@@ -3400,16 +3699,16 @@
     }
 ]</props>
         <required_translations>[ {
+  "message" : "Builds by Month",
+  "comment" : ""
+}, {
   "message" : "Deck",
   "comment" : ""
 }, {
+  "message" : "Enter a label",
+  "comment" : ""
+}, {
   "message" : "Get building!",
-  "comment" : ""
-}, {
-  "message" : "I don't know why it's so small.",
-  "comment" : ""
-}, {
-  "message" : "My Builds by Month",
   "comment" : ""
 }, {
   "message" : "My Decks",
@@ -3427,10 +3726,10 @@
   "message" : "No new decks",
   "comment" : ""
 }, {
-  "message" : "View all",
+  "message" : "Quick Calculation",
   "comment" : ""
 }, {
-  "message" : "Why is this so small?",
+  "message" : "View all",
   "comment" : ""
 } ]</required_translations>
         <root_component/>
@@ -3443,14 +3742,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-24 17:34:52</sys_created_on>
         <sys_id>dc3e204825695610cf4309a96a7fb618</sys_id>
-        <sys_mod_count>117</sys_mod_count>
+        <sys_mod_count>142</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="Deck Stats" source="x_1347857_deck_sta">83f6d593831952101e31f1e6feaad3c4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Deck Stats">83f6d593831952101e31f1e6feaad3c4</sys_scope>
         <sys_update_name>sys_ux_macroponent_dc3e204825695610cf4309a96a7fb618</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-07 14:55:06</sys_updated_on>
+        <sys_updated_on>2024-11-15 20:26:41</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=dc3e204825695610cf4309a96a7fb618"/>
 </record_update>
